@@ -1,0 +1,60 @@
+C:\_Suli\EVA\RunawayRobot\RunawayRobotWinForm\bin\Debug\net6.0-windows\RunawayRobotWinForm.exe
+C:\_Suli\EVA\RunawayRobot\RunawayRobotWinForm\bin\Debug\net6.0-windows\RunawayRobotWinForm.deps.json
+C:\_Suli\EVA\RunawayRobot\RunawayRobotWinForm\bin\Debug\net6.0-windows\RunawayRobotWinForm.runtimeconfig.json
+C:\_Suli\EVA\RunawayRobot\RunawayRobotWinForm\bin\Debug\net6.0-windows\RunawayRobotWinForm.dll
+C:\_Suli\EVA\RunawayRobot\RunawayRobotWinForm\bin\Debug\net6.0-windows\RunawayRobotWinForm.pdb
+C:\_Suli\EVA\RunawayRobot\RunawayRobotWinForm\bin\Debug\net6.0-windows\RunawayRobot.dll
+C:\_Suli\EVA\RunawayRobot\RunawayRobotWinForm\bin\Debug\net6.0-windows\RunawayRobot.pdb
+C:\_Suli\EVA\RunawayRobot\RunawayRobotWinForm\obj\Debug\net6.0-windows\RunawayRobotWinForm.csproj.AssemblyReference.cache
+C:\_Suli\EVA\RunawayRobot\RunawayRobotWinForm\obj\Debug\net6.0-windows\RunawayRobotWinForm.Form1.resources
+C:\_Suli\EVA\RunawayRobot\RunawayRobotWinForm\obj\Debug\net6.0-windows\RunawayRobotWinForm.csproj.GenerateResource.cache
+C:\_Suli\EVA\RunawayRobot\RunawayRobotWinForm\obj\Debug\net6.0-windows\RunawayRobotWinForm.GeneratedMSBuildEditorConfig.editorconfig
+C:\_Suli\EVA\RunawayRobot\RunawayRobotWinForm\obj\Debug\net6.0-windows\RunawayRobotWinForm.AssemblyInfoInputs.cache
+C:\_Suli\EVA\RunawayRobot\RunawayRobotWinForm\obj\Debug\net6.0-windows\RunawayRobotWinForm.AssemblyInfo.cs
+C:\_Suli\EVA\RunawayRobot\RunawayRobotWinForm\obj\Debug\net6.0-windows\RunawayRobotWinForm.csproj.CoreCompileInputs.cache
+C:\_Suli\EVA\RunawayRobot\RunawayRobotWinForm\obj\Debug\net6.0-windows\RunawayRobotWinForm.csproj.CopyComplete
+C:\_Suli\EVA\RunawayRobot\RunawayRobotWinForm\obj\Debug\net6.0-windows\RunawayRobotWinForm.dll
+C:\_Suli\EVA\RunawayRobot\RunawayRobotWinForm\obj\Debug\net6.0-windows\refint\RunawayRobotWinForm.dll
+C:\_Suli\EVA\RunawayRobot\RunawayRobotWinForm\obj\Debug\net6.0-windows\RunawayRobotWinForm.pdb
+C:\_Suli\EVA\RunawayRobot\RunawayRobotWinForm\obj\Debug\net6.0-windows\RunawayRobotWinForm.genruntimeconfig.cache
+C:\_Suli\EVA\RunawayRobot\RunawayRobotWinForm\obj\Debug\net6.0-windows\ref\RunawayRobotWinForm.dll
+C:\_Suli\EVA (C#)\RunawayRobot\RunawayRobotWinForm\bin\Debug\net6.0-windows\RunawayRobotWinForm.exe
+C:\_Suli\EVA (C#)\RunawayRobot\RunawayRobotWinForm\bin\Debug\net6.0-windows\RunawayRobotWinForm.deps.json
+C:\_Suli\EVA (C#)\RunawayRobot\RunawayRobotWinForm\bin\Debug\net6.0-windows\RunawayRobotWinForm.runtimeconfig.json
+C:\_Suli\EVA (C#)\RunawayRobot\RunawayRobotWinForm\bin\Debug\net6.0-windows\RunawayRobotWinForm.dll
+C:\_Suli\EVA (C#)\RunawayRobot\RunawayRobotWinForm\bin\Debug\net6.0-windows\RunawayRobotWinForm.pdb
+C:\_Suli\EVA (C#)\RunawayRobot\RunawayRobotWinForm\bin\Debug\net6.0-windows\RunawayRobot.dll
+C:\_Suli\EVA (C#)\RunawayRobot\RunawayRobotWinForm\bin\Debug\net6.0-windows\RunawayRobot.pdb
+C:\_Suli\EVA (C#)\RunawayRobot\RunawayRobotWinForm\obj\Debug\net6.0-windows\RunawayRobotWinForm.csproj.AssemblyReference.cache
+C:\_Suli\EVA (C#)\RunawayRobot\RunawayRobotWinForm\obj\Debug\net6.0-windows\RunawayRobotWinForm.Form1.resources
+C:\_Suli\EVA (C#)\RunawayRobot\RunawayRobotWinForm\obj\Debug\net6.0-windows\RunawayRobotWinForm.csproj.GenerateResource.cache
+C:\_Suli\EVA (C#)\RunawayRobot\RunawayRobotWinForm\obj\Debug\net6.0-windows\RunawayRobotWinForm.GeneratedMSBuildEditorConfig.editorconfig
+C:\_Suli\EVA (C#)\RunawayRobot\RunawayRobotWinForm\obj\Debug\net6.0-windows\RunawayRobotWinForm.AssemblyInfoInputs.cache
+C:\_Suli\EVA (C#)\RunawayRobot\RunawayRobotWinForm\obj\Debug\net6.0-windows\RunawayRobotWinForm.AssemblyInfo.cs
+C:\_Suli\EVA (C#)\RunawayRobot\RunawayRobotWinForm\obj\Debug\net6.0-windows\RunawayRobotWinForm.csproj.CoreCompileInputs.cache
+C:\_Suli\EVA (C#)\RunawayRobot\RunawayRobotWinForm\obj\Debug\net6.0-windows\RunawayRobotWinForm.csproj.CopyComplete
+C:\_Suli\EVA (C#)\RunawayRobot\RunawayRobotWinForm\obj\Debug\net6.0-windows\RunawayRobotWinForm.dll
+C:\_Suli\EVA (C#)\RunawayRobot\RunawayRobotWinForm\obj\Debug\net6.0-windows\refint\RunawayRobotWinForm.dll
+C:\_Suli\EVA (C#)\RunawayRobot\RunawayRobotWinForm\obj\Debug\net6.0-windows\RunawayRobotWinForm.pdb
+C:\_Suli\EVA (C#)\RunawayRobot\RunawayRobotWinForm\obj\Debug\net6.0-windows\RunawayRobotWinForm.genruntimeconfig.cache
+C:\_Suli\EVA (C#)\RunawayRobot\RunawayRobotWinForm\obj\Debug\net6.0-windows\ref\RunawayRobotWinForm.dll
+C:\_Suli\3. Félév\EVA (C#)\RunawayRobot\RunawayRobotWinForm\bin\Debug\net6.0-windows\RunawayRobotWinForm.exe
+C:\_Suli\3. Félév\EVA (C#)\RunawayRobot\RunawayRobotWinForm\bin\Debug\net6.0-windows\RunawayRobotWinForm.deps.json
+C:\_Suli\3. Félév\EVA (C#)\RunawayRobot\RunawayRobotWinForm\bin\Debug\net6.0-windows\RunawayRobotWinForm.runtimeconfig.json
+C:\_Suli\3. Félév\EVA (C#)\RunawayRobot\RunawayRobotWinForm\bin\Debug\net6.0-windows\RunawayRobotWinForm.dll
+C:\_Suli\3. Félév\EVA (C#)\RunawayRobot\RunawayRobotWinForm\bin\Debug\net6.0-windows\RunawayRobotWinForm.pdb
+C:\_Suli\3. Félév\EVA (C#)\RunawayRobot\RunawayRobotWinForm\bin\Debug\net6.0-windows\RunawayRobot.dll
+C:\_Suli\3. Félév\EVA (C#)\RunawayRobot\RunawayRobotWinForm\bin\Debug\net6.0-windows\RunawayRobot.pdb
+C:\_Suli\3. Félév\EVA (C#)\RunawayRobot\RunawayRobotWinForm\obj\Debug\net6.0-windows\RunawayRobotWinForm.csproj.AssemblyReference.cache
+C:\_Suli\3. Félév\EVA (C#)\RunawayRobot\RunawayRobotWinForm\obj\Debug\net6.0-windows\RunawayRobotWinForm.Form1.resources
+C:\_Suli\3. Félév\EVA (C#)\RunawayRobot\RunawayRobotWinForm\obj\Debug\net6.0-windows\RunawayRobotWinForm.csproj.GenerateResource.cache
+C:\_Suli\3. Félév\EVA (C#)\RunawayRobot\RunawayRobotWinForm\obj\Debug\net6.0-windows\RunawayRobotWinForm.GeneratedMSBuildEditorConfig.editorconfig
+C:\_Suli\3. Félév\EVA (C#)\RunawayRobot\RunawayRobotWinForm\obj\Debug\net6.0-windows\RunawayRobotWinForm.AssemblyInfoInputs.cache
+C:\_Suli\3. Félév\EVA (C#)\RunawayRobot\RunawayRobotWinForm\obj\Debug\net6.0-windows\RunawayRobotWinForm.AssemblyInfo.cs
+C:\_Suli\3. Félév\EVA (C#)\RunawayRobot\RunawayRobotWinForm\obj\Debug\net6.0-windows\RunawayRobotWinForm.csproj.CoreCompileInputs.cache
+C:\_Suli\3. Félév\EVA (C#)\RunawayRobot\RunawayRobotWinForm\obj\Debug\net6.0-windows\RunawayRobotWinForm.csproj.CopyComplete
+C:\_Suli\3. Félév\EVA (C#)\RunawayRobot\RunawayRobotWinForm\obj\Debug\net6.0-windows\RunawayRobotWinForm.dll
+C:\_Suli\3. Félév\EVA (C#)\RunawayRobot\RunawayRobotWinForm\obj\Debug\net6.0-windows\refint\RunawayRobotWinForm.dll
+C:\_Suli\3. Félév\EVA (C#)\RunawayRobot\RunawayRobotWinForm\obj\Debug\net6.0-windows\RunawayRobotWinForm.pdb
+C:\_Suli\3. Félév\EVA (C#)\RunawayRobot\RunawayRobotWinForm\obj\Debug\net6.0-windows\RunawayRobotWinForm.genruntimeconfig.cache
+C:\_Suli\3. Félév\EVA (C#)\RunawayRobot\RunawayRobotWinForm\obj\Debug\net6.0-windows\ref\RunawayRobotWinForm.dll

@@ -1,0 +1,33 @@
+C:\_Suli\EVA\RunawayRobot\RunawayRobot\bin\Debug\net6.0\RunawayRobot.deps.json
+C:\_Suli\EVA\RunawayRobot\RunawayRobot\bin\Debug\net6.0\RunawayRobot.dll
+C:\_Suli\EVA\RunawayRobot\RunawayRobot\bin\Debug\net6.0\RunawayRobot.pdb
+C:\_Suli\EVA\RunawayRobot\RunawayRobot\obj\Debug\net6.0\RunawayRobot.GeneratedMSBuildEditorConfig.editorconfig
+C:\_Suli\EVA\RunawayRobot\RunawayRobot\obj\Debug\net6.0\RunawayRobot.AssemblyInfoInputs.cache
+C:\_Suli\EVA\RunawayRobot\RunawayRobot\obj\Debug\net6.0\RunawayRobot.AssemblyInfo.cs
+C:\_Suli\EVA\RunawayRobot\RunawayRobot\obj\Debug\net6.0\RunawayRobot.csproj.CoreCompileInputs.cache
+C:\_Suli\EVA\RunawayRobot\RunawayRobot\obj\Debug\net6.0\RunawayRobot.dll
+C:\_Suli\EVA\RunawayRobot\RunawayRobot\obj\Debug\net6.0\refint\RunawayRobot.dll
+C:\_Suli\EVA\RunawayRobot\RunawayRobot\obj\Debug\net6.0\RunawayRobot.pdb
+C:\_Suli\EVA\RunawayRobot\RunawayRobot\obj\Debug\net6.0\ref\RunawayRobot.dll
+C:\_Suli\EVA (C#)\RunawayRobot\RunawayRobot\bin\Debug\net6.0\RunawayRobot.deps.json
+C:\_Suli\EVA (C#)\RunawayRobot\RunawayRobot\bin\Debug\net6.0\RunawayRobot.dll
+C:\_Suli\EVA (C#)\RunawayRobot\RunawayRobot\bin\Debug\net6.0\RunawayRobot.pdb
+C:\_Suli\EVA (C#)\RunawayRobot\RunawayRobot\obj\Debug\net6.0\RunawayRobot.GeneratedMSBuildEditorConfig.editorconfig
+C:\_Suli\EVA (C#)\RunawayRobot\RunawayRobot\obj\Debug\net6.0\RunawayRobot.AssemblyInfoInputs.cache
+C:\_Suli\EVA (C#)\RunawayRobot\RunawayRobot\obj\Debug\net6.0\RunawayRobot.AssemblyInfo.cs
+C:\_Suli\EVA (C#)\RunawayRobot\RunawayRobot\obj\Debug\net6.0\RunawayRobot.csproj.CoreCompileInputs.cache
+C:\_Suli\EVA (C#)\RunawayRobot\RunawayRobot\obj\Debug\net6.0\RunawayRobot.dll
+C:\_Suli\EVA (C#)\RunawayRobot\RunawayRobot\obj\Debug\net6.0\refint\RunawayRobot.dll
+C:\_Suli\EVA (C#)\RunawayRobot\RunawayRobot\obj\Debug\net6.0\RunawayRobot.pdb
+C:\_Suli\EVA (C#)\RunawayRobot\RunawayRobot\obj\Debug\net6.0\ref\RunawayRobot.dll
+C:\_Suli\3. Félév\EVA (C#)\RunawayRobot\RunawayRobot\bin\Debug\net6.0\RunawayRobot.deps.json
+C:\_Suli\3. Félév\EVA (C#)\RunawayRobot\RunawayRobot\bin\Debug\net6.0\RunawayRobot.dll
+C:\_Suli\3. Félév\EVA (C#)\RunawayRobot\RunawayRobot\bin\Debug\net6.0\RunawayRobot.pdb
+C:\_Suli\3. Félév\EVA (C#)\RunawayRobot\RunawayRobot\obj\Debug\net6.0\RunawayRobot.GeneratedMSBuildEditorConfig.editorconfig
+C:\_Suli\3. Félév\EVA (C#)\RunawayRobot\RunawayRobot\obj\Debug\net6.0\RunawayRobot.AssemblyInfoInputs.cache
+C:\_Suli\3. Félév\EVA (C#)\RunawayRobot\RunawayRobot\obj\Debug\net6.0\RunawayRobot.AssemblyInfo.cs
+C:\_Suli\3. Félév\EVA (C#)\RunawayRobot\RunawayRobot\obj\Debug\net6.0\RunawayRobot.csproj.CoreCompileInputs.cache
+C:\_Suli\3. Félév\EVA (C#)\RunawayRobot\RunawayRobot\obj\Debug\net6.0\RunawayRobot.dll
+C:\_Suli\3. Félév\EVA (C#)\RunawayRobot\RunawayRobot\obj\Debug\net6.0\refint\RunawayRobot.dll
+C:\_Suli\3. Félév\EVA (C#)\RunawayRobot\RunawayRobot\obj\Debug\net6.0\RunawayRobot.pdb
+C:\_Suli\3. Félév\EVA (C#)\RunawayRobot\RunawayRobot\obj\Debug\net6.0\ref\RunawayRobot.dll
