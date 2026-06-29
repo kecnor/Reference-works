@@ -1,0 +1,20 @@
+{
+    "name": "EditorTests",
+    "references":[
+        "Monster",
+        "Fixeddatas",
+        "Interfaces",
+        "Inventory",
+        "Item",
+        "Lists",
+        "Visuals",
+        "Multiplayer",
+        "Singleplayer"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ]
+}

@@ -1,0 +1,6 @@
+{
+	"name": "Visuals",
+	"references":[
+        "Unity.TextMeshPro"
+	]
+}

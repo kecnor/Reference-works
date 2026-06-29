@@ -1,0 +1,15 @@
+﻿<Solution>
+  <Project Path="Assembly-CSharp.csproj" />
+  <Project Path="Multiplayer.csproj" />
+  <Project Path="Inventory.csproj" />
+  <Project Path="Interfaces.csproj" />
+  <Project Path="Item.csproj" />
+  <Project Path="EditorTests.csproj" />
+  <Project Path="Singleplayer.csproj" />
+  <Project Path="Lists.csproj" />
+  <Project Path="PlayTests.csproj" />
+  <Project Path="Visuals.csproj" />
+  <Project Path="Fixeddatas.csproj" />
+  <Project Path="Cheating.csproj" />
+  <Project Path="Monster.csproj" />
+</Solution>

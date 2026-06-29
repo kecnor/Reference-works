@@ -1,0 +1,6 @@
+{
+	"name": "Item",
+	"references":[
+        "Fixeddatas"
+	]
+}

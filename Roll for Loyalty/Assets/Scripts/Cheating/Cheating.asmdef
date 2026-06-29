@@ -1,0 +1,6 @@
+{
+	"name": "Cheating",
+	"references":[
+		"Unity.TextMeshPro"
+    ]
+}

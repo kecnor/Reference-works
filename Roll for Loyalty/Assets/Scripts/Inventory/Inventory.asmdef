@@ -1,0 +1,9 @@
+{
+	"name": "Inventory",
+    "references":[
+        "Cheating",
+        "Fixeddatas",
+        "Item",
+        "Visuals"
+    ]
+}

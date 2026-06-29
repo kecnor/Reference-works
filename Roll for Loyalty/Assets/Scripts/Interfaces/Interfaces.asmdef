@@ -1,0 +1,9 @@
+{
+	"name": "Interfaces",
+	"references":[
+        "Inventory",
+		"Item",
+        "Unity.TextMeshPro",
+        "Unity.InputSystem"
+	]
+}

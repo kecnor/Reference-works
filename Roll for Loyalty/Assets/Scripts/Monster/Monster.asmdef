@@ -1,0 +1,6 @@
+{
+	"name": "Monster",
+	"references":[
+		"Fixeddatas"
+	]
+}

@@ -1,0 +1,14 @@
+{
+	"name": "Singleplayer",
+	"references":[
+        "Cheating",
+        "Monster",
+        "Fixeddatas",
+        "Interfaces",
+        "Inventory",
+        "Item",
+        "Lists",
+        "Visuals",
+        "Unity.TextMeshPro"
+    ]
+}

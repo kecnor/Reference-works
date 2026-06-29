@@ -1,0 +1,18 @@
+{
+    "name": "PlayTests",
+    "references":[
+        "Monster",
+        "Fixeddatas",
+        "Interfaces",
+        "Inventory",
+        "Item",
+        "Lists",
+        "Visuals",
+        "Multiplayer",
+        "Singleplayer",
+        "Unity.Netcode.Runtime"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ]
+}

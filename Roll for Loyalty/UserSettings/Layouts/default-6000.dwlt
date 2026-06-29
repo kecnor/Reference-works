@@ -1,0 +1,5088 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PixelRect:
+    serializedVersion: 2
+    x: 0
+    y: 43
+    width: 1920
+    height: 989
+  m_ShowMode: 4
+  m_Title: Game
+  m_RootView: {fileID: 3}
+  m_MinSize: {x: 875, y: 300}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_Maximized: 1
+--- !u!114 &2
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: InspectorWindow
+  m_EditorClassIdentifier: UnityEditor.dll::UnityEditor.DockArea
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 1473
+    y: 0
+    width: 447
+    height: 933
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 20}
+  m_Panes:
+  - {fileID: 17}
+  - {fileID: 20}
+  m_Selected: 1
+  m_LastSelected: 0
+--- !u!114 &3
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12008, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 4}
+  - {fileID: 6}
+  - {fileID: 5}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1920
+    height: 989
+  m_MinSize: {x: 875, y: 300}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_UseTopView: 1
+  m_TopViewHeight: 36
+  m_UseBottomView: 1
+  m_BottomViewHeight: 20
+--- !u!114 &4
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12011, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: MainToolbarWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1920
+    height: 36
+  m_MinSize: {x: 50, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 12}
+--- !u!114 &5
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12042, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 969
+    width: 1920
+    height: 20
+  m_MinSize: {x: 0, y: 0}
+  m_MaxSize: {x: 0, y: 0}
+--- !u!114 &6
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 7}
+  - {fileID: 2}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 36
+    width: 1920
+    height: 933
+  m_MinSize: {x: 300, y: 112}
+  m_MaxSize: {x: 24288, y: 16192}
+  vertical: 0
+  controlID: 56
+  draggingID: 0
+--- !u!114 &7
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 8}
+  - {fileID: 11}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1473
+    height: 933
+  m_MinSize: {x: 200, y: 112}
+  m_MaxSize: {x: 16192, y: 16192}
+  vertical: 1
+  controlID: 57
+  draggingID: 0
+--- !u!114 &8
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 9}
+  - {fileID: 10}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1473
+    height: 666
+  m_MinSize: {x: 200, y: 56}
+  m_MaxSize: {x: 16192, y: 8096}
+  vertical: 0
+  controlID: 47
+  draggingID: 0
+--- !u!114 &9
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 365
+    height: 666
+  m_MinSize: {x: 201, y: 226}
+  m_MaxSize: {x: 4001, y: 4026}
+  m_ActualView: {fileID: 14}
+  m_Panes:
+  - {fileID: 14}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &10
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: SceneView
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 365
+    y: 0
+    width: 1108
+    height: 666
+  m_MinSize: {x: 202, y: 226}
+  m_MaxSize: {x: 4002, y: 4026}
+  m_ActualView: {fileID: 15}
+  m_Panes:
+  - {fileID: 15}
+  - {fileID: 16}
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &11
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: ProjectBrowser
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 666
+    width: 1473
+    height: 267
+  m_MinSize: {x: 231, y: 276}
+  m_MaxSize: {x: 10001, y: 10026}
+  m_ActualView: {fileID: 18}
+  m_Panes:
+  - {fileID: 18}
+  - {fileID: 13}
+  - {fileID: 19}
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &12
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13987, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEditor.dll::UnityEditor.MainToolbarWindow
+  m_MinSize: {x: 50, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: UnityEditor.MainToolbarWindow
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "UnityEditor.MainToolbarWindow\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 43
+    width: 1920
+    height: 36
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData:
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      displayed: 1
+      id: Services/Account
+      index: 0
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      displayed: 1
+      id: Editor Controls/Store
+      index: 1
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      displayed: 0
+      id: Unsupported User Elements
+      index: 2
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      displayed: 1
+      id: Package Management/Package Manager
+      index: 3
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      displayed: 1
+      id: Services/Collab
+      index: 4
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      displayed: 0
+      id: Services/AI
+      index: 5
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      displayed: 1
+      id: Services/Unity Version Control
+      index: 6
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      displayed: 1
+      id: Services/Toolbar Help
+      index: 0
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      displayed: 0
+      id: Editor Utility/Quality
+      index: 1
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      displayed: 1
+      id: Editor Controls/Layout
+      index: 2
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      displayed: 1
+      id: Editor Controls/Search
+      index: 3
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      displayed: 1
+      id: Editor Controls/Modes
+      index: 4
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      displayed: 1
+      id: Editor Controls/Undo
+      index: 5
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      displayed: 1
+      id: Multiplayer/Multiplayer Role
+      index: 6
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      displayed: 1
+      id: Services/Cloud
+      index: 7
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 2
+      containerId: overlay-toolbar__top
+      displayed: 1
+      id: Play Mode Controls
+      index: 0
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":-991.0,"y":-36.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":3,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: -991, y: -36}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 3
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    m_ContainerData:
+    - containerId: overlay-toolbar__top
+      scrollOffset: 0
+    - containerId: Floating
+      scrollOffset: 0
+    m_DynamicPanelContainerData: []
+    m_OverlaysVisible: 1
+    m_DynamicPanelBehavior: 0
+--- !u!114 &13
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Console
+    m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "Console\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 745
+    width: 1472
+    height: 241
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_ContainerData: []
+    m_DynamicPanelContainerData: []
+    m_OverlaysVisible: 1
+    m_DynamicPanelBehavior: 0
+--- !u!114 &14
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Hierarchy
+    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "Hierarchy\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 79
+    width: 364
+    height: 640
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_ContainerData: []
+    m_DynamicPanelContainerData: []
+    m_OverlaysVisible: 1
+    m_DynamicPanelBehavior: 0
+  m_SceneHierarchy:
+    m_TreeViewState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: []
+      m_LastClickedID:
+        m_Data: 0
+      m_ExpandedIDs:
+      - m_Data: -38180
+      - m_Data: -37876
+      - m_Data: -36610
+      - m_Data: -26458
+      - m_Data: -25424
+      - m_Data: -20162
+      - m_Data: -15276
+      - m_Data: -13178
+      - m_Data: -11700
+      - m_Data: -9810
+      - m_Data: -7830
+      - m_Data: -5434
+      - m_Data: -3364
+      - m_Data: -1316
+      - m_Data: 111970
+      - m_Data: 112946
+      - m_Data: 114302
+      - m_Data: 115952
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData:
+          m_Data: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_TrimLeadingAndTrailingWhitespace: 0
+        m_ClientGUIView: {fileID: 9}
+      m_SearchString: 
+    m_ExpandedScenes: []
+    m_CurrenRootInstanceID: 0
+    m_LockTracker:
+      m_IsLocked: 0
+    m_CurrentSortingName: TransformSorting
+  m_WindowGUID: 4c969a2b90040154d917609493e03593
+--- !u!114 &15
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Scene
+    m_Image: {fileID: 2593428753322112591, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "Scene\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: 365
+    y: 79
+    width: 1106
+    height: 640
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData:
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      displayed: 0
+      id: Brush Attributes
+      index: 0
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      displayed: 0
+      id: unity-tool-contexts-toolbar
+      index: 1
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      displayed: 1
+      id: Tool Settings
+      index: 2
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":25.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 25}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 0
+      containerId: overlay-toolbar__top
+      displayed: 1
+      id: unity-grid-and-snap-toolbar
+      index: 3
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":25.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 25}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      displayed: 1
+      id: unity-scene-view-toolbar
+      index: 0
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":25.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 25}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      displayed: 1
+      id: unity-scene-view-camera-mode-toolbar
+      index: 1
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":25.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 25}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-toolbar__top
+      displayed: 0
+      id: unity-search-toolbar
+      index: 2
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 0
+      containerId: overlay-toolbar__left
+      displayed: 0
+      id: Terrain Tools
+      index: 0
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 0
+      containerId: overlay-toolbar__left
+      displayed: 0
+      id: Brush Masks
+      index: 1
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 0
+      containerId: overlay-container--left
+      displayed: 1
+      id: unity-transform-toolbar
+      index: 0
+      contents: '{"m_Layout":2,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":25.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 25}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 2
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--left
+      displayed: 0
+      id: Scene View/Lighting Visualization Colors
+      index: 0
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--left
+      displayed: 1
+      id: Overlays/OverlayMenu
+      index: 1
+      contents: '{"m_Layout":1,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":25.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 25}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 1
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 0
+      containerId: overlay-container--right
+      displayed: 1
+      id: Orientation
+      index: 0
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":25.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 25}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Light Settings
+      index: 3
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/PBR Validation Settings
+      index: 5
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Cloth Collisions
+      index: 6
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Cloth Constraints
+      index: 7
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: APV Overlay
+      index: 8
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: AINavigationOverlay
+      index: 5
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: SceneView/CamerasOverlay
+      index: 9
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Physics Debugger
+      index: 10
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Particles
+      index: 11
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Scene Visibility
+      index: 12
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/TrailRenderer
+      index: 13
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Occlusion Culling
+      index: 14
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Tilemap Focus
+      index: 0
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Tile Palette Clipboard
+      index: 1
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Open Tile Palette
+      index: 2
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Tile Palette Brush Pick
+      index: 4
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Path
+      index: 15
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 0
+      id: Scene View/Sprite Swap
+      index: 16
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 0
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    - dockPosition: 1
+      containerId: overlay-container--right
+      displayed: 1
+      id: Network Visualization
+      index: 17
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Folded":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":-310.0,"y":-94.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":3,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      floating: 0
+      collapsed: 0
+      snapOffset: {x: -310, y: -94}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 3
+      layout: 4
+      size: {x: 0, y: 0}
+      sizeOverridden: 0
+    m_ContainerData:
+    - containerId: overlay-toolbar__top
+      scrollOffset: 0
+    - containerId: overlay-toolbar__left
+      scrollOffset: 0
+    - containerId: overlay-dynamic-panel--left
+      scrollOffset: 0
+    - containerId: overlay-container--left
+      scrollOffset: 0
+    - containerId: overlay-container--right
+      scrollOffset: 0
+    - containerId: overlay-dynamic-panel--right
+      scrollOffset: 0
+    - containerId: overlay-toolbar__right
+      scrollOffset: 0
+    - containerId: overlay-toolbar__bottom
+      scrollOffset: 0
+    - containerId: Floating
+      scrollOffset: 0
+    m_DynamicPanelContainerData:
+    - containerId: overlay-dynamic-panel--left
+      width: 56
+      saveData:
+        state: 0
+        overlayData: []
+    - containerId: overlay-dynamic-panel--right
+      width: 56
+      saveData:
+        state: 0
+        overlayData: []
+    m_OverlaysVisible: 1
+    m_DynamicPanelBehavior: 0
+  m_WindowGUID: cc27987af1a868c49b0894db9c0f5429
+  m_Gizmos: 1
+  m_OverrideSceneCullingMask: 6917529027641081856
+  m_SceneIsLit: 1
+  m_SceneLighting: 1
+  m_2DMode: 1
+  m_isRotationLocked: 0
+  m_PlayAudio: 0
+  m_AudioPlay: 0
+  m_DebugDrawModesUseInteractiveLightBakingData: 0
+  m_Position:
+    m_Target: {x: -0.17969167, y: -1.0192678, z: -9.96878}
+    speed: 2
+    m_Value: {x: -0.17969167, y: -1.0192678, z: -9.96878}
+  m_RenderMode: 0
+  m_CameraMode:
+    drawMode: 0
+    name: Shaded
+    section: Shading Mode
+  m_ValidateTrueMetals: 0
+  m_DoValidateTrueMetals: 0
+  m_SceneViewState:
+    m_AlwaysRefresh: 0
+    showFog: 1
+    showSkybox: 1
+    showFlares: 1
+    showImageEffects: 1
+    showParticleSystems: 1
+    showVisualEffectGraphs: 1
+    m_FxEnabled: 1
+  m_Grid:
+    xGrid:
+      m_Fade:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 0, y: 0}
+    yGrid:
+      m_Fade:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 1, y: 1}
+    zGrid:
+      m_Fade:
+        m_Target: 1
+        speed: 2
+        m_Value: 1
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 1, y: 1}
+    m_ShowGrid: 1
+    m_GridAxis: 1
+    m_gridOpacity: 0.5
+  m_Rotation:
+    m_Target: {x: 0, y: 0, z: 0, w: 1}
+    speed: 2
+    m_Value: {x: 0, y: 0, z: 0, w: 1}
+  m_Size:
+    m_Target: 10.392794
+    speed: 2
+    m_Value: 10.392794
+  m_Ortho:
+    m_Target: 1
+    speed: 2
+    m_Value: 1
+  m_CameraSettings:
+    m_Speed: 1
+    m_SpeedNormalized: 0.5
+    m_SpeedMin: 0.001
+    m_SpeedMax: 2
+    m_EasingEnabled: 1
+    m_EasingDuration: 0.4
+    m_AccelerationEnabled: 1
+    m_FieldOfViewHorizontalOrVertical: 60
+    m_NearClip: 0.03
+    m_FarClip: 10000
+    m_DynamicClip: 1
+    m_OcclusionCulling: 0
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewOrtho: 0
+  m_Viewpoint:
+    m_SceneView: {fileID: 15}
+    m_CameraOverscanSettings:
+      m_Opacity: 50
+      m_Scale: 1
+  m_ReplacementShader: {fileID: 0}
+  m_ReplacementString: 
+  m_SceneVisActive: 1
+  m_LastLockedObject: {fileID: 0}
+  m_LastDebugDrawMode:
+    drawMode: 35
+    name: Contributors / Receivers
+    section: Lighting
+  m_ViewIsLockedToObject: 0
+--- !u!114 &16
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Game
+    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "Game\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: 365
+    y: 79
+    width: 1106
+    height: 640
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_ContainerData: []
+    m_DynamicPanelContainerData: []
+    m_OverlaysVisible: 1
+    m_DynamicPanelBehavior: 0
+  m_SerializedViewNames: []
+  m_SerializedViewValues: []
+  m_PlayModeViewName: GameView
+  m_ShowGizmos: 0
+  m_TargetDisplay: 0
+  m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+  m_TargetSize: {x: 1106, y: 619}
+  m_TextureFilterMode: 0
+  m_TextureHideFlags: 61
+  m_RenderIMGUI: 1
+  m_EnterPlayModeBehavior: 0
+  m_UseMipMap: 0
+  m_VSyncEnabled: 0
+  m_Gizmos: 0
+  m_Stats: 0
+  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_ZoomArea:
+    m_HRangeLocked: 0
+    m_VRangeLocked: 0
+    hZoomLockedByDefault: 0
+    vZoomLockedByDefault: 0
+    m_HBaseRangeMin: -553
+    m_HBaseRangeMax: 553
+    m_VBaseRangeMin: -309.5
+    m_VBaseRangeMax: 309.5
+    m_HAllowExceedBaseRangeMin: 1
+    m_HAllowExceedBaseRangeMax: 1
+    m_VAllowExceedBaseRangeMin: 1
+    m_VAllowExceedBaseRangeMax: 1
+    m_ScaleWithWindow: 0
+    m_HSlider: 0
+    m_VSlider: 0
+    m_IgnoreScrollWheelUntilClicked: 0
+    m_EnableMouseInput: 0
+    m_EnableSliderZoomHorizontal: 0
+    m_EnableSliderZoomVertical: 0
+    m_UniformScale: 1
+    m_UpDirection: 1
+    m_DrawArea:
+      serializedVersion: 2
+      x: 0
+      y: 21
+      width: 1106
+      height: 619
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 553, y: 309.5}
+    m_MarginLeft: 0
+    m_MarginRight: 0
+    m_MarginTop: 0
+    m_MarginBottom: 0
+    m_LastShownAreaInsideMargins:
+      serializedVersion: 2
+      x: -553
+      y: -309.5
+      width: 1106
+      height: 619
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 1106, y: 640}
+  m_ClearInEditMode: 1
+  m_NoCameraWarning: 1
+  m_LowResolutionForAspectRatios: 01000000000000000000
+  m_XRRenderMode: 0
+  m_RenderTexture: {fileID: 0}
+  m_showToolbar: 1
+--- !u!114 &17
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13401, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEditor.TestRunner.dll::UnityEditor.TestTools.TestRunner.TestRunnerWindow
+  m_MinSize: {x: 50, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Test Runner
+    m_Image: {fileID: 0}
+    m_Tooltip: Test framework for running Edit mode and Play mode tests in Unity.
+      Part of the com.unity.test-framework package.
+    m_TextWithWhitespace: "Test Runner\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: 1473
+    y: 79
+    width: 446
+    height: 907
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_ContainerData: []
+    m_DynamicPanelContainerData: []
+    m_OverlaysVisible: 1
+    m_DynamicPanelBehavior: 0
+  m_Spl:
+    ID: 139
+    splitterInitialOffset: 0
+    currentActiveSplitter: -1
+    realSizes:
+    - 628
+    - 209
+    relativeSizes:
+    - 0.75
+    - 0.25
+    minSizes:
+    - 32
+    - 32
+    maxSizes:
+    - 0
+    - 0
+    lastTotalSize: 837
+    splitSize: 6
+    xOffset: 0
+    m_Version: 1
+    oldRealSizes: 
+    oldMinSizes: 
+    oldMaxSizes: 
+    oldSplitSize: 0
+  m_TestTypeToolbarIndex: 1
+  m_TestListGUIs:
+  - m_Window: {fileID: 17}
+    runProgress:
+      RunGuid: 571d812e-89f2-4ae9-b414-5abcd7b417a4
+      ExecutionSettings:
+        m_TargetPlatform: 0
+        m_HasTargetPlatform: 0
+        filter:
+          testMode: 0
+          testNames: []
+          groupNames: []
+          categoryNames: []
+          assemblyNames: []
+        filters:
+        - testMode: 2
+          testNames:
+          - MP_PlayerTests
+          groupNames: []
+          categoryNames: []
+          assemblyNames: []
+        runSynchronously: 0
+        playerHeartbeatTimeout: 600
+        orderedTestNames: []
+        ignoreTests: []
+        featureFlags:
+          fileCleanUpCheck: 0
+          requiresSplashScreen: 0
+          strictDomainReload: 0
+          disableNestedEnumeratorBugfix: 0
+        randomOrderSeed: 0
+      HasFinished: 1
+      Progress: 0.99999976
+      CurrentStepName: Unlock Reload Assemblies
+      CurrentStageName: 
+    m_NewResultList:
+    - id: 1000
+      uniqueId: '[Roll for Loyalty][suite]'
+      name: Roll for Loyalty
+      fullName: Roll for Loyalty
+      resultStatus: 1
+      duration: 0.0360435
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: 1071
+      uniqueId: '[EditorTests][D:/Roll for Loyalty/Library/ScriptAssemblies/EditorTests.dll][suite]'
+      name: EditorTests.dll
+      fullName: D:/Roll for Loyalty/Library/ScriptAssemblies/EditorTests.dll
+      resultStatus: 1
+      duration: 0.0360435
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1079
+      parentUniqueId: '[Roll for Loyalty][suite]'
+    - id: 1001
+      uniqueId: 'EditorTests.dll/[EditorTests][InventoryTests][suite]'
+      name: InventoryTests
+      fullName: InventoryTests
+      resultStatus: 1
+      duration: 0.0169825
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1071
+      parentUniqueId: '[EditorTests][D:/Roll for Loyalty/Library/ScriptAssemblies/EditorTests.dll][suite]'
+    - id: 1029
+      uniqueId: 'EditorTests.dll/InventoryTests/[EditorTests][InventoryTests.Inventory_Clear_OnAlreadyEmptyInventory_DoesNotThrowTest]'
+      name: Inventory_Clear_OnAlreadyEmptyInventory_DoesNotThrowTest
+      fullName: InventoryTests.Inventory_Clear_OnAlreadyEmptyInventory_DoesNotThrowTest
+      resultStatus: 1
+      duration: 0.0087974
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1015
+      parentUniqueId: 'EditorTests.dll/[EditorTests][InventoryTests][suite]'
+    - id: 1028
+      uniqueId: 'EditorTests.dll/InventoryTests/[EditorTests][InventoryTests.Inventory_ClearTest]'
+      name: Inventory_ClearTest
+      fullName: InventoryTests.Inventory_ClearTest
+      resultStatus: 1
+      duration: 0.0056905
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1015
+      parentUniqueId: 'EditorTests.dll/[EditorTests][InventoryTests][suite]'
+    - id: 1027
+      uniqueId: 'EditorTests.dll/InventoryTests/[EditorTests][InventoryTests.Inventory_Constructor_AllSlotsAreEmptyTest]'
+      name: Inventory_Constructor_AllSlotsAreEmptyTest
+      fullName: InventoryTests.Inventory_Constructor_AllSlotsAreEmptyTest
+      resultStatus: 1
+      duration: 0.0001307
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1015
+      parentUniqueId: 'EditorTests.dll/[EditorTests][InventoryTests][suite]'
+    - id: 1026
+      uniqueId: 'EditorTests.dll/InventoryTests/[EditorTests][InventoryTests.Inventory_Constructor_CreatesCorrectNumberOfSlotsTest]'
+      name: Inventory_Constructor_CreatesCorrectNumberOfSlotsTest
+      fullName: InventoryTests.Inventory_Constructor_CreatesCorrectNumberOfSlotsTest
+      resultStatus: 1
+      duration: 0.0000972
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1015
+      parentUniqueId: 'EditorTests.dll/[EditorTests][InventoryTests][suite]'
+    - id: 1031
+      uniqueId: 'EditorTests.dll/InventoryTests/[EditorTests][InventoryTests.Inventory_SlotsAreIndependentTest]'
+      name: Inventory_SlotsAreIndependentTest
+      fullName: InventoryTests.Inventory_SlotsAreIndependentTest
+      resultStatus: 1
+      duration: 0.0001906
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1015
+      parentUniqueId: 'EditorTests.dll/[EditorTests][InventoryTests][suite]'
+    - id: 1030
+      uniqueId: 'EditorTests.dll/InventoryTests/[EditorTests][InventoryTests.Inventory_ZeroSize_CreatesEmptySlotArrayTest]'
+      name: Inventory_ZeroSize_CreatesEmptySlotArrayTest
+      fullName: InventoryTests.Inventory_ZeroSize_CreatesEmptySlotArrayTest
+      resultStatus: 1
+      duration: 0.0000989
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1015
+      parentUniqueId: 'EditorTests.dll/[EditorTests][InventoryTests][suite]'
+    - id: 1021
+      uniqueId: 'EditorTests.dll/InventoryTests/[EditorTests][InventoryTests.InventorySlot_AddAmount_NegativeValueTest]'
+      name: InventorySlot_AddAmount_NegativeValueTest
+      fullName: InventoryTests.InventorySlot_AddAmount_NegativeValueTest
+      resultStatus: 1
+      duration: 0.0001722
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1015
+      parentUniqueId: 'EditorTests.dll/[EditorTests][InventoryTests][suite]'
+    - id: 1020
+      uniqueId: 'EditorTests.dll/InventoryTests/[EditorTests][InventoryTests.InventorySlot_AddAmountTest]'
+      name: InventorySlot_AddAmountTest
+      fullName: InventoryTests.InventorySlot_AddAmountTest
+      resultStatus: 1
+      duration: 0.0001361
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1015
+      parentUniqueId: 'EditorTests.dll/[EditorTests][InventoryTests][suite]'
+    - id: 1023
+      uniqueId: 'EditorTests.dll/InventoryTests/[EditorTests][InventoryTests.InventorySlot_CanPlaceInSlot_EmptyAllowedItemsTest]'
+      name: InventorySlot_CanPlaceInSlot_EmptyAllowedItemsTest
+      fullName: InventoryTests.InventorySlot_CanPlaceInSlot_EmptyAllowedItemsTest
+      resultStatus: 1
+      duration: 0.0005412
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1015
+      parentUniqueId: 'EditorTests.dll/[EditorTests][InventoryTests][suite]'
+    - id: 1022
+      uniqueId: 'EditorTests.dll/InventoryTests/[EditorTests][InventoryTests.InventorySlot_CanPlaceInSlot_NullItemTest]'
+      name: InventorySlot_CanPlaceInSlot_NullItemTest
+      fullName: InventoryTests.InventorySlot_CanPlaceInSlot_NullItemTest
+      resultStatus: 1
+      duration: 0.0001118
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1015
+      parentUniqueId: 'EditorTests.dll/[EditorTests][InventoryTests][suite]'
+    - id: 1016
+      uniqueId: 'EditorTests.dll/InventoryTests/[EditorTests][InventoryTests.InventorySlot_Constructor_CreatesEmptySlotTest]'
+      name: InventorySlot_Constructor_CreatesEmptySlotTest
+      fullName: InventoryTests.InventorySlot_Constructor_CreatesEmptySlotTest
+      resultStatus: 1
+      duration: 0.0002395
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1015
+      parentUniqueId: 'EditorTests.dll/[EditorTests][InventoryTests][suite]'
+    - id: 1017
+      uniqueId: 'EditorTests.dll/InventoryTests/[EditorTests][InventoryTests.InventorySlot_Constructor_SetsItemAndAmountTest]'
+      name: InventorySlot_Constructor_SetsItemAndAmountTest
+      fullName: InventoryTests.InventorySlot_Constructor_SetsItemAndAmountTest
+      resultStatus: 1
+      duration: 0.0001297
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1015
+      parentUniqueId: 'EditorTests.dll/[EditorTests][InventoryTests][suite]'
+    - id: 1025
+      uniqueId: 'EditorTests.dll/InventoryTests/[EditorTests][InventoryTests.InventorySlot_RemoveItem_ThenUpdateSlotTest]'
+      name: InventorySlot_RemoveItem_ThenUpdateSlotTest
+      fullName: InventoryTests.InventorySlot_RemoveItem_ThenUpdateSlotTest
+      resultStatus: 1
+      duration: 0.000244
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1015
+      parentUniqueId: 'EditorTests.dll/[EditorTests][InventoryTests][suite]'
+    - id: 1019
+      uniqueId: 'EditorTests.dll/InventoryTests/[EditorTests][InventoryTests.InventorySlot_RemoveItemTest]'
+      name: InventorySlot_RemoveItemTest
+      fullName: InventoryTests.InventorySlot_RemoveItemTest
+      resultStatus: 1
+      duration: 0.0001443
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1015
+      parentUniqueId: 'EditorTests.dll/[EditorTests][InventoryTests][suite]'
+    - id: 1024
+      uniqueId: 'EditorTests.dll/InventoryTests/[EditorTests][InventoryTests.InventorySlot_UpdateSlot_OverwritesItemTest]'
+      name: InventorySlot_UpdateSlot_OverwritesItemTest
+      fullName: InventoryTests.InventorySlot_UpdateSlot_OverwritesItemTest
+      resultStatus: 1
+      duration: 0.0001314
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1015
+      parentUniqueId: 'EditorTests.dll/[EditorTests][InventoryTests][suite]'
+    - id: 1018
+      uniqueId: 'EditorTests.dll/InventoryTests/[EditorTests][InventoryTests.InventorySlot_UpdateSlotTest]'
+      name: InventorySlot_UpdateSlotTest
+      fullName: InventoryTests.InventorySlot_UpdateSlotTest
+      resultStatus: 1
+      duration: 0.000127
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1015
+      parentUniqueId: 'EditorTests.dll/[EditorTests][InventoryTests][suite]'
+    - id: 1032
+      uniqueId: 'EditorTests.dll/[EditorTests][ItemBuffTests][suite]'
+      name: ItemBuffTests
+      fullName: ItemBuffTests
+      resultStatus: 1
+      duration: 0.0029935
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1071
+      parentUniqueId: '[EditorTests][D:/Roll for Loyalty/Library/ScriptAssemblies/EditorTests.dll][suite]'
+    - id: 1052
+      uniqueId: 'EditorTests.dll/ItemBuffTests/[EditorTests][ItemBuffTests.ItemBuff_Attribute_CanBeSetTest]'
+      name: ItemBuff_Attribute_CanBeSetTest
+      fullName: ItemBuffTests.ItemBuff_Attribute_CanBeSetTest
+      resultStatus: 1
+      duration: 0.0009193
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1046
+      parentUniqueId: 'EditorTests.dll/[EditorTests][ItemBuffTests][suite]'
+    - id: 1051
+      uniqueId: 'EditorTests.dll/ItemBuffTests/[EditorTests][ItemBuffTests.ItemBuff_Attribute_DefaultValueTest]'
+      name: ItemBuff_Attribute_DefaultValueTest
+      fullName: ItemBuffTests.ItemBuff_Attribute_DefaultValueTest
+      resultStatus: 1
+      duration: 0.0000974
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1046
+      parentUniqueId: 'EditorTests.dll/[EditorTests][ItemBuffTests][suite]'
+    - id: 1047
+      uniqueId: 'EditorTests.dll/ItemBuffTests/[EditorTests][ItemBuffTests.Itembuff_Constructor_GeneratesValueTest]'
+      name: Itembuff_Constructor_GeneratesValueTest
+      fullName: ItemBuffTests.Itembuff_Constructor_GeneratesValueTest
+      resultStatus: 1
+      duration: 0.0010612
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1046
+      parentUniqueId: 'EditorTests.dll/[EditorTests][ItemBuffTests][suite]'
+    - id: 1049
+      uniqueId: 'EditorTests.dll/ItemBuffTests/[EditorTests][ItemBuffTests.Itembuff_Constructor_SameMinMaxValueTest]'
+      name: Itembuff_Constructor_SameMinMaxValueTest
+      fullName: ItemBuffTests.Itembuff_Constructor_SameMinMaxValueTest
+      resultStatus: 1
+      duration: 0.0000903
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1046
+      parentUniqueId: 'EditorTests.dll/[EditorTests][ItemBuffTests][suite]'
+    - id: 1048
+      uniqueId: 'EditorTests.dll/ItemBuffTests/[EditorTests][ItemBuffTests.Itembuff_Constructor_SetsMaxAndMinTest]'
+      name: Itembuff_Constructor_SetsMaxAndMinTest
+      fullName: ItemBuffTests.Itembuff_Constructor_SetsMaxAndMinTest
+      resultStatus: 1
+      duration: 0.000102
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1046
+      parentUniqueId: 'EditorTests.dll/[EditorTests][ItemBuffTests][suite]'
+    - id: 1050
+      uniqueId: 'EditorTests.dll/ItemBuffTests/[EditorTests][ItemBuffTests.ItemBuff_UsedAsModifier_InModifiableIntTest]'
+      name: ItemBuff_UsedAsModifier_InModifiableIntTest
+      fullName: ItemBuffTests.ItemBuff_UsedAsModifier_InModifiableIntTest
+      resultStatus: 1
+      duration: 0.0007233
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1046
+      parentUniqueId: 'EditorTests.dll/[EditorTests][ItemBuffTests][suite]'
+    - id: 1039
+      uniqueId: 'EditorTests.dll/[EditorTests][ItemTests][suite]'
+      name: ItemTests
+      fullName: ItemTests
+      resultStatus: 1
+      duration: 0.008067
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1071
+      parentUniqueId: '[EditorTests][D:/Roll for Loyalty/Library/ScriptAssemblies/EditorTests.dll][suite]'
+    - id: 1065
+      uniqueId: 'EditorTests.dll/ItemTests/[EditorTests][ItemTests.Item_CreateItem_ReturnsCorrectIDTest]'
+      name: Item_CreateItem_ReturnsCorrectIDTest
+      fullName: ItemTests.Item_CreateItem_ReturnsCorrectIDTest
+      resultStatus: 1
+      duration: 0.0021212
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1053
+      parentUniqueId: 'EditorTests.dll/[EditorTests][ItemTests][suite]'
+    - id: 1055
+      uniqueId: 'EditorTests.dll/ItemTests/[EditorTests][ItemTests.Item_DefaultConstructor_BuffsTest]'
+      name: Item_DefaultConstructor_BuffsTest
+      fullName: ItemTests.Item_DefaultConstructor_BuffsTest
+      resultStatus: 1
+      duration: 0.000251
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1053
+      parentUniqueId: 'EditorTests.dll/[EditorTests][ItemTests][suite]'
+    - id: 1054
+      uniqueId: 'EditorTests.dll/ItemTests/[EditorTests][ItemTests.Item_DefaultConstructorTest]'
+      name: Item_DefaultConstructorTest
+      fullName: ItemTests.Item_DefaultConstructorTest
+      resultStatus: 1
+      duration: 0.0001177
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1053
+      parentUniqueId: 'EditorTests.dll/[EditorTests][ItemTests][suite]'
+    - id: 1060
+      uniqueId: 'EditorTests.dll/ItemTests/[EditorTests][ItemTests.Item_GetItemBuff_AttributeTest]'
+      name: Item_GetItemBuff_AttributeTest
+      fullName: ItemTests.Item_GetItemBuff_AttributeTest
+      resultStatus: 1
+      duration: 0.0021164
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1053
+      parentUniqueId: 'EditorTests.dll/[EditorTests][ItemTests][suite]'
+    - id: 1063
+      uniqueId: 'EditorTests.dll/ItemTests/[EditorTests][ItemTests.Item_GetItemBuff_EmptyBuffArrayTest]'
+      name: Item_GetItemBuff_EmptyBuffArrayTest
+      fullName: ItemTests.Item_GetItemBuff_EmptyBuffArrayTest
+      resultStatus: 1
+      duration: 0.0004704
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1053
+      parentUniqueId: 'EditorTests.dll/[EditorTests][ItemTests][suite]'
+    - id: 1062
+      uniqueId: 'EditorTests.dll/ItemTests/[EditorTests][ItemTests.Item_GetItemBuff_MultipleBuffsTest]'
+      name: Item_GetItemBuff_MultipleBuffsTest
+      fullName: ItemTests.Item_GetItemBuff_MultipleBuffsTest
+      resultStatus: 1
+      duration: 0.0004921
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1053
+      parentUniqueId: 'EditorTests.dll/[EditorTests][ItemTests][suite]'
+    - id: 1061
+      uniqueId: 'EditorTests.dll/ItemTests/[EditorTests][ItemTests.Item_GetItemBuff_NoAttributeTest]'
+      name: Item_GetItemBuff_NoAttributeTest
+      fullName: ItemTests.Item_GetItemBuff_NoAttributeTest
+      resultStatus: 1
+      duration: 0.0004516
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1053
+      parentUniqueId: 'EditorTests.dll/[EditorTests][ItemTests][suite]'
+    - id: 1064
+      uniqueId: 'EditorTests.dll/ItemTests/[EditorTests][ItemTests.Item_ID_SetterTest]'
+      name: Item_ID_SetterTest
+      fullName: ItemTests.Item_ID_SetterTest
+      resultStatus: 1
+      duration: 0.0001137
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1053
+      parentUniqueId: 'EditorTests.dll/[EditorTests][ItemTests][suite]'
+    - id: 1058
+      uniqueId: 'EditorTests.dll/ItemTests/[EditorTests][ItemTests.Item_ItemObjectConstructor_CopiesBuffCountTest]'
+      name: Item_ItemObjectConstructor_CopiesBuffCountTest
+      fullName: ItemTests.Item_ItemObjectConstructor_CopiesBuffCountTest
+      resultStatus: 1
+      duration: 0.0004727
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1053
+      parentUniqueId: 'EditorTests.dll/[EditorTests][ItemTests][suite]'
+    - id: 1056
+      uniqueId: 'EditorTests.dll/ItemTests/[EditorTests][ItemTests.Item_ItemObjectConstructor_CopiesNameAndIDTest]'
+      name: Item_ItemObjectConstructor_CopiesNameAndIDTest
+      fullName: ItemTests.Item_ItemObjectConstructor_CopiesNameAndIDTest
+      resultStatus: 1
+      duration: 0.0005519
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1053
+      parentUniqueId: 'EditorTests.dll/[EditorTests][ItemTests][suite]'
+    - id: 1057
+      uniqueId: 'EditorTests.dll/ItemTests/[EditorTests][ItemTests.Item_ItemObjectConstructor_CopiesTypeTest]'
+      name: Item_ItemObjectConstructor_CopiesTypeTest
+      fullName: ItemTests.Item_ItemObjectConstructor_CopiesTypeTest
+      resultStatus: 1
+      duration: 0.0004455
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1053
+      parentUniqueId: 'EditorTests.dll/[EditorTests][ItemTests][suite]'
+    - id: 1059
+      uniqueId: 'EditorTests.dll/ItemTests/[EditorTests][ItemTests.Item_ItemObjectConstructor_NoBuffTest]'
+      name: Item_ItemObjectConstructor_NoBuffTest
+      fullName: ItemTests.Item_ItemObjectConstructor_NoBuffTest
+      resultStatus: 1
+      duration: 0.0004628
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1053
+      parentUniqueId: 'EditorTests.dll/[EditorTests][ItemTests][suite]'
+    - id: 1018
+      uniqueId: 'EditorTests.dll/[EditorTests][ModifiableIntTests][suite]'
+      name: ModifiableIntTests
+      fullName: ModifiableIntTests
+      resultStatus: 1
+      duration: 0.0021019
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1071
+      parentUniqueId: '[EditorTests][D:/Roll for Loyalty/Library/ScriptAssemblies/EditorTests.dll][suite]'
+    - id: 1041
+      uniqueId: "EditorTests.dll/ModifiableIntTests/[EditorTests][ModifiableIntTests.ModifiableInt_AddModifier_Multipl\xE9Test]"
+      name: "ModifiableInt_AddModifier_Multipl\xE9Test"
+      fullName: "ModifiableIntTests.ModifiableInt_AddModifier_Multipl\xE9Test"
+      resultStatus: 1
+      duration: 0.0002831
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1032
+      parentUniqueId: 'EditorTests.dll/[EditorTests][ModifiableIntTests][suite]'
+    - id: 1042
+      uniqueId: 'EditorTests.dll/ModifiableIntTests/[EditorTests][ModifiableIntTests.ModifiableInt_AddModifier_NegativeTest]'
+      name: ModifiableInt_AddModifier_NegativeTest
+      fullName: ModifiableIntTests.ModifiableInt_AddModifier_NegativeTest
+      resultStatus: 1
+      duration: 0.0001393
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1032
+      parentUniqueId: 'EditorTests.dll/[EditorTests][ModifiableIntTests][suite]'
+    - id: 1043
+      uniqueId: 'EditorTests.dll/ModifiableIntTests/[EditorTests][ModifiableIntTests.ModifiableInt_AddModifier_WithTempAndBaseTest]'
+      name: ModifiableInt_AddModifier_WithTempAndBaseTest
+      fullName: ModifiableIntTests.ModifiableInt_AddModifier_WithTempAndBaseTest
+      resultStatus: 1
+      duration: 0.0001633
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1032
+      parentUniqueId: 'EditorTests.dll/[EditorTests][ModifiableIntTests][suite]'
+    - id: 1040
+      uniqueId: 'EditorTests.dll/ModifiableIntTests/[EditorTests][ModifiableIntTests.ModifiableInt_AddModifierTest]'
+      name: ModifiableInt_AddModifierTest
+      fullName: ModifiableIntTests.ModifiableInt_AddModifierTest
+      resultStatus: 1
+      duration: 0.0001271
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1032
+      parentUniqueId: 'EditorTests.dll/[EditorTests][ModifiableIntTests][suite]'
+    - id: 1037
+      uniqueId: 'EditorTests.dll/ModifiableIntTests/[EditorTests][ModifiableIntTests.ModifiableInt_BaseValue_Set_NegativeValueTest]'
+      name: ModifiableInt_BaseValue_Set_NegativeValueTest
+      fullName: ModifiableIntTests.ModifiableInt_BaseValue_Set_NegativeValueTest
+      resultStatus: 1
+      duration: 0.0001089
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1032
+      parentUniqueId: 'EditorTests.dll/[EditorTests][ModifiableIntTests][suite]'
+    - id: 1036
+      uniqueId: 'EditorTests.dll/ModifiableIntTests/[EditorTests][ModifiableIntTests.ModifiableInt_BaseValue_Set_UpdatesModifiedValueTest]'
+      name: ModifiableInt_BaseValue_Set_UpdatesModifiedValueTest
+      fullName: ModifiableIntTests.ModifiableInt_BaseValue_Set_UpdatesModifiedValueTest
+      resultStatus: 1
+      duration: 0.0000998
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1032
+      parentUniqueId: 'EditorTests.dll/[EditorTests][ModifiableIntTests][suite]'
+    - id: 1033
+      uniqueId: 'EditorTests.dll/ModifiableIntTests/[EditorTests][ModifiableIntTests.ModifiableInt_Constructor_DefaultValueTest]'
+      name: ModifiableInt_Constructor_DefaultValueTest
+      fullName: ModifiableIntTests.ModifiableInt_Constructor_DefaultValueTest
+      resultStatus: 1
+      duration: 0.0001569
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1032
+      parentUniqueId: 'EditorTests.dll/[EditorTests][ModifiableIntTests][suite]'
+    - id: 1035
+      uniqueId: 'EditorTests.dll/ModifiableIntTests/[EditorTests][ModifiableIntTests.ModifiableInt_Constructor_NullCallback_DoesNotThrowTest]'
+      name: ModifiableInt_Constructor_NullCallback_DoesNotThrowTest
+      fullName: ModifiableIntTests.ModifiableInt_Constructor_NullCallback_DoesNotThrowTest
+      resultStatus: 1
+      duration: 0.0003093
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1032
+      parentUniqueId: 'EditorTests.dll/[EditorTests][ModifiableIntTests][suite]'
+    - id: 1034
+      uniqueId: 'EditorTests.dll/ModifiableIntTests/[EditorTests][ModifiableIntTests.ModifiableInt_Constructor_WithBaseValueTest]'
+      name: ModifiableInt_Constructor_WithBaseValueTest
+      fullName: ModifiableIntTests.ModifiableInt_Constructor_WithBaseValueTest
+      resultStatus: 1
+      duration: 0.0001093
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1032
+      parentUniqueId: 'EditorTests.dll/[EditorTests][ModifiableIntTests][suite]'
+    - id: 1045
+      uniqueId: 'EditorTests.dll/ModifiableIntTests/[EditorTests][ModifiableIntTests.ModifiableInt_Remove_OneModifierTest]'
+      name: ModifiableInt_Remove_OneModifierTest
+      fullName: ModifiableIntTests.ModifiableInt_Remove_OneModifierTest
+      resultStatus: 1
+      duration: 0.0002488
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1032
+      parentUniqueId: 'EditorTests.dll/[EditorTests][ModifiableIntTests][suite]'
+    - id: 1044
+      uniqueId: 'EditorTests.dll/ModifiableIntTests/[EditorTests][ModifiableIntTests.ModifiableInt_RemoveModifierTest]'
+      name: ModifiableInt_RemoveModifierTest
+      fullName: ModifiableIntTests.ModifiableInt_RemoveModifierTest
+      resultStatus: 1
+      duration: 0.0001447
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1032
+      parentUniqueId: 'EditorTests.dll/[EditorTests][ModifiableIntTests][suite]'
+    - id: 1039
+      uniqueId: 'EditorTests.dll/ModifiableIntTests/[EditorTests][ModifiableIntTests.ModifiableInt_TempValue_Set_NegativeValueTest]'
+      name: ModifiableInt_TempValue_Set_NegativeValueTest
+      fullName: ModifiableIntTests.ModifiableInt_TempValue_Set_NegativeValueTest
+      resultStatus: 1
+      duration: 0.0001029
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1032
+      parentUniqueId: 'EditorTests.dll/[EditorTests][ModifiableIntTests][suite]'
+    - id: 1038
+      uniqueId: 'EditorTests.dll/ModifiableIntTests/[EditorTests][ModifiableIntTests.ModifiableInt_TempValue_SetTest]'
+      name: ModifiableInt_TempValue_SetTest
+      fullName: ModifiableIntTests.ModifiableInt_TempValue_SetTest
+      resultStatus: 1
+      duration: 0.0001085
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1032
+      parentUniqueId: 'EditorTests.dll/[EditorTests][ModifiableIntTests][suite]'
+    - id: 1052
+      uniqueId: 'EditorTests.dll/[EditorTests][MonsterTests_EditMode][suite]'
+      name: MonsterTests_EditMode
+      fullName: MonsterTests_EditMode
+      resultStatus: 1
+      duration: 0.0039745
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1071
+      parentUniqueId: '[EditorTests][D:/Roll for Loyalty/Library/ScriptAssemblies/EditorTests.dll][suite]'
+    - id: 1071
+      uniqueId: 'EditorTests.dll/MonsterTests_EditMode/[EditorTests][MonsterTests_EditMode.Monster_AttackPower__IsInRangeTest]'
+      name: Monster_AttackPower__IsInRangeTest
+      fullName: MonsterTests_EditMode.Monster_AttackPower__IsInRangeTest
+      resultStatus: 1
+      duration: 0.0028407
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1066
+      parentUniqueId: 'EditorTests.dll/[EditorTests][MonsterTests_EditMode][suite]'
+    - id: 1072
+      uniqueId: 'EditorTests.dll/MonsterTests_EditMode/[EditorTests][MonsterTests_EditMode.Monster_AttackPower_IsAtLeastFiveTest]'
+      name: Monster_AttackPower_IsAtLeastFiveTest
+      fullName: MonsterTests_EditMode.Monster_AttackPower_IsAtLeastFiveTest
+      resultStatus: 1
+      duration: 0.0001559
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1066
+      parentUniqueId: 'EditorTests.dll/[EditorTests][MonsterTests_EditMode][suite]'
+    - id: 1070
+      uniqueId: 'EditorTests.dll/MonsterTests_EditMode/[EditorTests][MonsterTests_EditMode.Monster_AttackPower_NormalTest]'
+      name: Monster_AttackPower_NormalTest
+      fullName: MonsterTests_EditMode.Monster_AttackPower_NormalTest
+      resultStatus: 1
+      duration: 0.0002763
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1066
+      parentUniqueId: 'EditorTests.dll/[EditorTests][MonsterTests_EditMode][suite]'
+    - id: 1069
+      uniqueId: 'EditorTests.dll/MonsterTests_EditMode/[EditorTests][MonsterTests_EditMode.Monster_Constructor_NegativeAttackPower_DoesNotThrowTest]'
+      name: Monster_Constructor_NegativeAttackPower_DoesNotThrowTest
+      fullName: MonsterTests_EditMode.Monster_Constructor_NegativeAttackPower_DoesNotThrowTest
+      resultStatus: 1
+      duration: 0.0002231
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1066
+      parentUniqueId: 'EditorTests.dll/[EditorTests][MonsterTests_EditMode][suite]'
+    - id: 1067
+      uniqueId: 'EditorTests.dll/MonsterTests_EditMode/[EditorTests][MonsterTests_EditMode.Monster_Constructor_ValidAttackPower_DoesNotThrowTest]'
+      name: Monster_Constructor_ValidAttackPower_DoesNotThrowTest
+      fullName: MonsterTests_EditMode.Monster_Constructor_ValidAttackPower_DoesNotThrowTest
+      resultStatus: 1
+      duration: 0.0001429
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1066
+      parentUniqueId: 'EditorTests.dll/[EditorTests][MonsterTests_EditMode][suite]'
+    - id: 1068
+      uniqueId: 'EditorTests.dll/MonsterTests_EditMode/[EditorTests][MonsterTests_EditMode.Monster_Constructor_ZeroAttackPower_DoesNotThrowTest]'
+      name: Monster_Constructor_ZeroAttackPower_DoesNotThrowTest
+      fullName: MonsterTests_EditMode.Monster_Constructor_ZeroAttackPower_DoesNotThrowTest
+      resultStatus: 1
+      duration: 0.0001319
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1066
+      parentUniqueId: 'EditorTests.dll/[EditorTests][MonsterTests_EditMode][suite]'
+    - id: 1073
+      uniqueId: 'EditorTests.dll/MonsterTests_EditMode/[EditorTests][MonsterTests_EditMode.Monster_Reward_IsInRangeTest]'
+      name: Monster_Reward_IsInRangeTest
+      fullName: MonsterTests_EditMode.Monster_Reward_IsInRangeTest
+      resultStatus: 1
+      duration: 0.0002037
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1066
+      parentUniqueId: 'EditorTests.dll/[EditorTests][MonsterTests_EditMode][suite]'
+    - id: 1060
+      uniqueId: 'EditorTests.dll/[EditorTests][MP_AttributeTests][suite]'
+      name: MP_AttributeTests
+      fullName: MP_AttributeTests
+      resultStatus: 1
+      duration: 0.0019241
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1071
+      parentUniqueId: '[EditorTests][D:/Roll for Loyalty/Library/ScriptAssemblies/EditorTests.dll][suite]'
+    - id: 1129
+      uniqueId: 'EditorTests.dll/MP_AttributeTests/[EditorTests][MP_AttributeTests.ModifiableInt_BaseValue_SetDirectlyTest]'
+      name: ModifiableInt_BaseValue_SetDirectlyTest
+      fullName: MP_AttributeTests.ModifiableInt_BaseValue_SetDirectlyTest
+      resultStatus: 1
+      duration: 0.0002318
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1117
+      parentUniqueId: 'EditorTests.dll/[EditorTests][MP_AttributeTests][suite]'
+    - id: 1128
+      uniqueId: 'EditorTests.dll/MP_AttributeTests/[EditorTests][MP_AttributeTests.ModifiableInt_InitializesWitBaseValueTest]'
+      name: ModifiableInt_InitializesWitBaseValueTest
+      fullName: MP_AttributeTests.ModifiableInt_InitializesWitBaseValueTest
+      resultStatus: 1
+      duration: 0.0000976
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1117
+      parentUniqueId: 'EditorTests.dll/[EditorTests][MP_AttributeTests][suite]'
+    - id: 1120
+      uniqueId: 'EditorTests.dll/MP_AttributeTests/[EditorTests][MP_AttributeTests.MP_Attribute_Constructor_ParentTest]'
+      name: MP_Attribute_Constructor_ParentTest
+      fullName: MP_AttributeTests.MP_Attribute_Constructor_ParentTest
+      resultStatus: 1
+      duration: 0.0005062
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1117
+      parentUniqueId: 'EditorTests.dll/[EditorTests][MP_AttributeTests][suite]'
+    - id: 1119
+      uniqueId: 'EditorTests.dll/MP_AttributeTests/[EditorTests][MP_AttributeTests.MP_Attribute_Constructor_SetsBaseValueTest]'
+      name: MP_Attribute_Constructor_SetsBaseValueTest
+      fullName: MP_AttributeTests.MP_Attribute_Constructor_SetsBaseValueTest
+      resultStatus: 1
+      duration: 0.0002145
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1117
+      parentUniqueId: 'EditorTests.dll/[EditorTests][MP_AttributeTests][suite]'
+    - id: 1118
+      uniqueId: 'EditorTests.dll/MP_AttributeTests/[EditorTests][MP_AttributeTests.MP_Attribute_Constructor_SetsTypeTest]'
+      name: MP_Attribute_Constructor_SetsTypeTest
+      fullName: MP_AttributeTests.MP_Attribute_Constructor_SetsTypeTest
+      resultStatus: 1
+      duration: 0.0001057
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1117
+      parentUniqueId: 'EditorTests.dll/[EditorTests][MP_AttributeTests][suite]'
+    - id: 1127
+      uniqueId: 'EditorTests.dll/MP_AttributeTests/[EditorTests][MP_AttributeTests.MP_Attribute_DifferentTypes_StoredTest]'
+      name: MP_Attribute_DifferentTypes_StoredTest
+      fullName: MP_AttributeTests.MP_Attribute_DifferentTypes_StoredTest
+      resultStatus: 1
+      duration: 0.0003282
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1117
+      parentUniqueId: 'EditorTests.dll/[EditorTests][MP_AttributeTests][suite]'
+    - id: 1122
+      uniqueId: 'EditorTests.dll/MP_AttributeTests/[EditorTests][MP_AttributeTests.MP_Attribute_ModifiedValueTest]'
+      name: MP_Attribute_ModifiedValueTest
+      fullName: MP_AttributeTests.MP_Attribute_ModifiedValueTest
+      resultStatus: 1
+      duration: 0.0001158
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1117
+      parentUniqueId: 'EditorTests.dll/[EditorTests][MP_AttributeTests][suite]'
+    - id: 1126
+      uniqueId: 'EditorTests.dll/MP_AttributeTests/[EditorTests][MP_AttributeTests.MP_Attribute_MultipleInstances_IndependentTest]'
+      name: MP_Attribute_MultipleInstances_IndependentTest
+      fullName: MP_AttributeTests.MP_Attribute_MultipleInstances_IndependentTest
+      resultStatus: 1
+      duration: 0.0001107
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1117
+      parentUniqueId: 'EditorTests.dll/[EditorTests][MP_AttributeTests][suite]'
+    - id: 1125
+      uniqueId: 'EditorTests.dll/MP_AttributeTests/[EditorTests][MP_AttributeTests.MP_Attribute_TypeSetter_ChangeTest]'
+      name: MP_Attribute_TypeSetter_ChangeTest
+      fullName: MP_AttributeTests.MP_Attribute_TypeSetter_ChangeTest
+      resultStatus: 1
+      duration: 0.0001165
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1117
+      parentUniqueId: 'EditorTests.dll/[EditorTests][MP_AttributeTests][suite]'
+    - id: 1121
+      uniqueId: 'EditorTests.dll/MP_AttributeTests/[EditorTests][MP_AttributeTests.MP_Attribute_ValueTest]'
+      name: MP_Attribute_ValueTest
+      fullName: MP_AttributeTests.MP_Attribute_ValueTest
+      resultStatus: 1
+      duration: 0.0000971
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1117
+      parentUniqueId: 'EditorTests.dll/[EditorTests][MP_AttributeTests][suite]'
+    m_ResultText: Roll for Loyalty (64 tests) (0,036s)
+    m_ResultStacktrace: 
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 6ae6f291
+      m_LastClickedID: -1846352278
+      m_ExpandedIDs: 6ae6f2915c9613a51e914fad046fe9c65ef2a26affffff7f
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_TrimLeadingAndTrailingWhitespace: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategories: []
+      availableCategories:
+      - Uncategorized
+    m_SelectedOption: 0
+  - m_Window: {fileID: 17}
+    runProgress:
+      RunGuid: 571d812e-89f2-4ae9-b414-5abcd7b417a4
+      ExecutionSettings:
+        m_TargetPlatform: 0
+        m_HasTargetPlatform: 0
+        filter:
+          testMode: 0
+          testNames: []
+          groupNames: []
+          categoryNames: []
+          assemblyNames: []
+        filters:
+        - testMode: 2
+          testNames:
+          - MP_PlayerTests
+          groupNames: []
+          categoryNames: []
+          assemblyNames: []
+        runSynchronously: 0
+        playerHeartbeatTimeout: 600
+        orderedTestNames: []
+        ignoreTests: []
+        featureFlags:
+          fileCleanUpCheck: 0
+          requiresSplashScreen: 0
+          strictDomainReload: 0
+          disableNestedEnumeratorBugfix: 0
+        randomOrderSeed: 0
+      HasFinished: 1
+      Progress: 0.99999976
+      CurrentStepName: Unlock Reload Assemblies
+      CurrentStageName: 
+    m_NewResultList:
+    - id: 1000
+      uniqueId: '[Roll for Loyalty][suite]'
+      name: Roll for Loyalty
+      fullName: Roll for Loyalty
+      resultStatus: 1
+      duration: 0.14814371
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: 1100
+      uniqueId: '[PlayTests][D:/Roll for Loyalty/Library/ScriptAssemblies/PlayTests.dll][suite]'
+      name: PlayTests.dll
+      fullName: D:/Roll for Loyalty/Library/ScriptAssemblies/PlayTests.dll
+      resultStatus: 1
+      duration: 0.14814371
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1000
+      parentUniqueId: '[Roll for Loyalty][suite]'
+    - id: 1001
+      uniqueId: 'PlayTests.dll/[PlayTests][GameBoardTests][suite]'
+      name: GameBoardTests
+      fullName: GameBoardTests
+      resultStatus: 1
+      duration: 0.0284242
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1100
+      parentUniqueId: '[PlayTests][D:/Roll for Loyalty/Library/ScriptAssemblies/PlayTests.dll][suite]'
+    - id: 1004
+      uniqueId: 'PlayTests.dll/GameBoardTests/[PlayTests][GameBoardTests.Gameboard_AddBoardPiece_MultiplePiecesTest]'
+      name: Gameboard_AddBoardPiece_MultiplePiecesTest
+      fullName: GameBoardTests.Gameboard_AddBoardPiece_MultiplePiecesTest
+      resultStatus: 1
+      duration: 0.020281
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: 'PlayTests.dll/[PlayTests][GameBoardTests][suite]'
+    - id: 1003
+      uniqueId: 'PlayTests.dll/GameBoardTests/[PlayTests][GameBoardTests.Gameboard_AddBoardPiece_StoresObjecTestt]'
+      name: Gameboard_AddBoardPiece_StoresObjecTestt
+      fullName: GameBoardTests.Gameboard_AddBoardPiece_StoresObjecTestt
+      resultStatus: 1
+      duration: 0.0010368
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: 'PlayTests.dll/[PlayTests][GameBoardTests][suite]'
+    - id: 1002
+      uniqueId: 'PlayTests.dll/GameBoardTests/[PlayTests][GameBoardTests.Gameboard_AddBoardPieceTest]'
+      name: Gameboard_AddBoardPieceTest
+      fullName: GameBoardTests.Gameboard_AddBoardPieceTest
+      resultStatus: 1
+      duration: 0.0002575
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: 'PlayTests.dll/[PlayTests][GameBoardTests][suite]'
+    - id: 1012
+      uniqueId: 'PlayTests.dll/GameBoardTests/[PlayTests][GameBoardTests.Gameboard_GetGameObject_ReturnsNullForMissingPositionTest]'
+      name: Gameboard_GetGameObject_ReturnsNullForMissingPositionTest
+      fullName: GameBoardTests.Gameboard_GetGameObject_ReturnsNullForMissingPositionTest
+      resultStatus: 1
+      duration: 0.0004551
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: 'PlayTests.dll/[PlayTests][GameBoardTests][suite]'
+    - id: 1011
+      uniqueId: 'PlayTests.dll/GameBoardTests/[PlayTests][GameBoardTests.Gameboard_GetGameObjectTest]'
+      name: Gameboard_GetGameObjectTest
+      fullName: GameBoardTests.Gameboard_GetGameObjectTest
+      resultStatus: 1
+      duration: 0.0002323
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: 'PlayTests.dll/[PlayTests][GameBoardTests][suite]'
+    - id: 1014
+      uniqueId: 'PlayTests.dll/GameBoardTests/[PlayTests][GameBoardTests.Gameboard_GetRandomTilePosition_WithSingleTileTest]'
+      name: Gameboard_GetRandomTilePosition_WithSingleTileTest
+      fullName: GameBoardTests.Gameboard_GetRandomTilePosition_WithSingleTileTest
+      resultStatus: 1
+      duration: 0.0024512
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: 'PlayTests.dll/[PlayTests][GameBoardTests][suite]'
+    - id: 1013
+      uniqueId: 'PlayTests.dll/GameBoardTests/[PlayTests][GameBoardTests.Gameboard_GetRandomTilePositionTest]'
+      name: Gameboard_GetRandomTilePositionTest
+      fullName: GameBoardTests.Gameboard_GetRandomTilePositionTest
+      resultStatus: 1
+      duration: 0.000714
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: 'PlayTests.dll/[PlayTests][GameBoardTests][suite]'
+    - id: 1009
+      uniqueId: 'PlayTests.dll/GameBoardTests/[PlayTests][GameBoardTests.Gameboard_OnPosition_ForEmptyBoardTest]'
+      name: Gameboard_OnPosition_ForEmptyBoardTest
+      fullName: GameBoardTests.Gameboard_OnPosition_ForEmptyBoardTest
+      resultStatus: 1
+      duration: 0.0004671
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: 'PlayTests.dll/[PlayTests][GameBoardTests][suite]'
+    - id: 1010
+      uniqueId: 'PlayTests.dll/GameBoardTests/[PlayTests][GameBoardTests.Gameboard_OnPosition_ReturnsFalseAfterRemoveTest]'
+      name: Gameboard_OnPosition_ReturnsFalseAfterRemoveTest
+      fullName: GameBoardTests.Gameboard_OnPosition_ReturnsFalseAfterRemoveTest
+      resultStatus: 1
+      duration: 0.000638
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: 'PlayTests.dll/[PlayTests][GameBoardTests][suite]'
+    - id: 1008
+      uniqueId: 'PlayTests.dll/GameBoardTests/[PlayTests][GameBoardTests.Gameboard_OnPositionTest]'
+      name: Gameboard_OnPositionTest
+      fullName: GameBoardTests.Gameboard_OnPositionTest
+      resultStatus: 1
+      duration: 0.0003725
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: 'PlayTests.dll/[PlayTests][GameBoardTests][suite]'
+    - id: 1007
+      uniqueId: 'PlayTests.dll/GameBoardTests/[PlayTests][GameBoardTests.Gameboard_RemoveBoardPiece_NonExistentKey_DoesNotThrowTest]'
+      name: Gameboard_RemoveBoardPiece_NonExistentKey_DoesNotThrowTest
+      fullName: GameBoardTests.Gameboard_RemoveBoardPiece_NonExistentKey_DoesNotThrowTest
+      resultStatus: 1
+      duration: 0.0010136
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: 'PlayTests.dll/[PlayTests][GameBoardTests][suite]'
+    - id: 1006
+      uniqueId: 'PlayTests.dll/GameBoardTests/[PlayTests][GameBoardTests.Gameboard_RemoveBoardPiece_RemoveKeyTest]'
+      name: Gameboard_RemoveBoardPiece_RemoveKeyTest
+      fullName: GameBoardTests.Gameboard_RemoveBoardPiece_RemoveKeyTest
+      resultStatus: 1
+      duration: 0.0002489
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: 'PlayTests.dll/[PlayTests][GameBoardTests][suite]'
+    - id: 1005
+      uniqueId: 'PlayTests.dll/GameBoardTests/[PlayTests][GameBoardTests.Gameboard_RemoveBoardPieceTest]'
+      name: Gameboard_RemoveBoardPieceTest
+      fullName: GameBoardTests.Gameboard_RemoveBoardPieceTest
+      resultStatus: 1
+      duration: 0.0002562
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: 'PlayTests.dll/[PlayTests][GameBoardTests][suite]'
+    - id: 1015
+      uniqueId: 'PlayTests.dll/[PlayTests][MP_BotAttributeTests][suite]'
+      name: MP_BotAttributeTests
+      fullName: MP_BotAttributeTests
+      resultStatus: 1
+      duration: 0.008776
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1100
+      parentUniqueId: '[PlayTests][D:/Roll for Loyalty/Library/ScriptAssemblies/PlayTests.dll][suite]'
+    - id: 1032
+      uniqueId: 'PlayTests.dll/MP_BotAttributeTests/[PlayTests][MP_BotAttributeTests.MP_Bot_ActiveTest]'
+      name: MP_Bot_ActiveTest
+      fullName: MP_BotAttributeTests.MP_Bot_ActiveTest
+      resultStatus: 1
+      duration: 0.0006847
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1015
+      parentUniqueId: 'PlayTests.dll/[PlayTests][MP_BotAttributeTests][suite]'
+    - id: 1017
+      uniqueId: 'PlayTests.dll/MP_BotAttributeTests/[PlayTests][MP_BotAttributeTests.MP_Bot_Attribute_Constructor_SetsBaseValueTest]'
+      name: MP_Bot_Attribute_Constructor_SetsBaseValueTest
+      fullName: MP_BotAttributeTests.MP_Bot_Attribute_Constructor_SetsBaseValueTest
+      resultStatus: 1
+      duration: 0.0007606
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1015
+      parentUniqueId: 'PlayTests.dll/[PlayTests][MP_BotAttributeTests][suite]'
+    - id: 1018
+      uniqueId: 'PlayTests.dll/MP_BotAttributeTests/[PlayTests][MP_BotAttributeTests.MP_Bot_Attribute_Constructor_SetsParentTest]'
+      name: MP_Bot_Attribute_Constructor_SetsParentTest
+      fullName: MP_BotAttributeTests.MP_Bot_Attribute_Constructor_SetsParentTest
+      resultStatus: 1
+      duration: 0.0002306
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1015
+      parentUniqueId: 'PlayTests.dll/[PlayTests][MP_BotAttributeTests][suite]'
+    - id: 1016
+      uniqueId: 'PlayTests.dll/MP_BotAttributeTests/[PlayTests][MP_BotAttributeTests.MP_Bot_Attribute_Constructor_SetsTypeTest]'
+      name: MP_Bot_Attribute_Constructor_SetsTypeTest
+      fullName: MP_BotAttributeTests.MP_Bot_Attribute_Constructor_SetsTypeTest
+      resultStatus: 1
+      duration: 0.0002479
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1015
+      parentUniqueId: 'PlayTests.dll/[PlayTests][MP_BotAttributeTests][suite]'
+    - id: 1020
+      uniqueId: 'PlayTests.dll/MP_BotAttributeTests/[PlayTests][MP_BotAttributeTests.MP_Bot_Attribute_ModifiedValue_EqualsBaseValueTest]'
+      name: MP_Bot_Attribute_ModifiedValue_EqualsBaseValueTest
+      fullName: MP_BotAttributeTests.MP_Bot_Attribute_ModifiedValue_EqualsBaseValueTest
+      resultStatus: 1
+      duration: 0.000288
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1015
+      parentUniqueId: 'PlayTests.dll/[PlayTests][MP_BotAttributeTests][suite]'
+    - id: 1022
+      uniqueId: 'PlayTests.dll/MP_BotAttributeTests/[PlayTests][MP_BotAttributeTests.MP_Bot_Attribute_MultipleInstances_IndependentTest]'
+      name: MP_Bot_Attribute_MultipleInstances_IndependentTest
+      fullName: MP_BotAttributeTests.MP_Bot_Attribute_MultipleInstances_IndependentTest
+      resultStatus: 1
+      duration: 0.0022267
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1015
+      parentUniqueId: 'PlayTests.dll/[PlayTests][MP_BotAttributeTests][suite]'
+    - id: 1021
+      uniqueId: 'PlayTests.dll/MP_BotAttributeTests/[PlayTests][MP_BotAttributeTests.MP_Bot_Attribute_TypeSetter_ChangeTest]'
+      name: MP_Bot_Attribute_TypeSetter_ChangeTest
+      fullName: MP_BotAttributeTests.MP_Bot_Attribute_TypeSetter_ChangeTest
+      resultStatus: 1
+      duration: 0.0002991
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1015
+      parentUniqueId: 'PlayTests.dll/[PlayTests][MP_BotAttributeTests][suite]'
+    - id: 1019
+      uniqueId: 'PlayTests.dll/MP_BotAttributeTests/[PlayTests][MP_BotAttributeTests.MP_Bot_Attribute_Value_IsNotNullTest]'
+      name: MP_Bot_Attribute_Value_IsNotNullTest
+      fullName: MP_BotAttributeTests.MP_Bot_Attribute_Value_IsNotNullTest
+      resultStatus: 1
+      duration: 0.0003569
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1015
+      parentUniqueId: 'PlayTests.dll/[PlayTests][MP_BotAttributeTests][suite]'
+    - id: 1031
+      uniqueId: 'PlayTests.dll/MP_BotAttributeTests/[PlayTests][MP_BotAttributeTests.MP_Bot_Cheated_DefaultTest]'
+      name: MP_Bot_Cheated_DefaultTest
+      fullName: MP_BotAttributeTests.MP_Bot_Cheated_DefaultTest
+      resultStatus: 1
+      duration: 0.0002156
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1015
+      parentUniqueId: 'PlayTests.dll/[PlayTests][MP_BotAttributeTests][suite]'
+    - id: 1030
+      uniqueId: 'PlayTests.dll/MP_BotAttributeTests/[PlayTests][MP_BotAttributeTests.MP_Bot_Fighting_SetToTrueTest]'
+      name: MP_Bot_Fighting_SetToTrueTest
+      fullName: MP_BotAttributeTests.MP_Bot_Fighting_SetToTrueTest
+      resultStatus: 1
+      duration: 0.0002251
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1015
+      parentUniqueId: 'PlayTests.dll/[PlayTests][MP_BotAttributeTests][suite]'
+    - id: 1029
+      uniqueId: 'PlayTests.dll/MP_BotAttributeTests/[PlayTests][MP_BotAttributeTests.MP_Bot_FightingTest]'
+      name: MP_Bot_FightingTest
+      fullName: MP_BotAttributeTests.MP_Bot_FightingTest
+      resultStatus: 1
+      duration: 0.0002259
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1015
+      parentUniqueId: 'PlayTests.dll/[PlayTests][MP_BotAttributeTests][suite]'
+    - id: 1025
+      uniqueId: 'PlayTests.dll/MP_BotAttributeTests/[PlayTests][MP_BotAttributeTests.MP_Bot_RandomAttitude_ReturnsAttitudeTest]'
+      name: MP_Bot_RandomAttitude_ReturnsAttitudeTest
+      fullName: MP_BotAttributeTests.MP_Bot_RandomAttitude_ReturnsAttitudeTest
+      resultStatus: 1
+      duration: 0.0009951
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1015
+      parentUniqueId: 'PlayTests.dll/[PlayTests][MP_BotAttributeTests][suite]'
+    - id: 1023
+      uniqueId: 'PlayTests.dll/MP_BotAttributeTests/[PlayTests][MP_BotAttributeTests.MP_Bot_RandomClass_ReturnsClassTest]'
+      name: MP_Bot_RandomClass_ReturnsClassTest
+      fullName: MP_BotAttributeTests.MP_Bot_RandomClass_ReturnsClassTest
+      resultStatus: 1
+      duration: 0.0004531
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1015
+      parentUniqueId: 'PlayTests.dll/[PlayTests][MP_BotAttributeTests][suite]'
+    - id: 1024
+      uniqueId: 'PlayTests.dll/MP_BotAttributeTests/[PlayTests][MP_BotAttributeTests.MP_Bot_RandomRace_ReturnsRaceTest]'
+      name: MP_Bot_RandomRace_ReturnsRaceTest
+      fullName: MP_BotAttributeTests.MP_Bot_RandomRace_ReturnsRaceTest
+      resultStatus: 1
+      duration: 0.0004562
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1015
+      parentUniqueId: 'PlayTests.dll/[PlayTests][MP_BotAttributeTests][suite]'
+    - id: 1027
+      uniqueId: 'PlayTests.dll/MP_BotAttributeTests/[PlayTests][MP_BotAttributeTests.MP_Bot_SetReputation_CreatesEmptyArrayTest]'
+      name: MP_Bot_SetReputation_CreatesEmptyArrayTest
+      fullName: MP_BotAttributeTests.MP_Bot_SetReputation_CreatesEmptyArrayTest
+      resultStatus: 1
+      duration: 0.0003694
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1015
+      parentUniqueId: 'PlayTests.dll/[PlayTests][MP_BotAttributeTests][suite]'
+    - id: 1026
+      uniqueId: 'PlayTests.dll/MP_BotAttributeTests/[PlayTests][MP_BotAttributeTests.MP_Bot_SetReputation_CreatesSizeArrayTest]'
+      name: MP_Bot_SetReputation_CreatesSizeArrayTest
+      fullName: MP_BotAttributeTests.MP_Bot_SetReputation_CreatesSizeArrayTest
+      resultStatus: 1
+      duration: 0.0002642
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1015
+      parentUniqueId: 'PlayTests.dll/[PlayTests][MP_BotAttributeTests][suite]'
+    - id: 1028
+      uniqueId: 'PlayTests.dll/MP_BotAttributeTests/[PlayTests][MP_BotAttributeTests.MP_Bot_SetReputation_DefaultAttitudeTest]'
+      name: MP_Bot_SetReputation_DefaultAttitudeTest
+      fullName: MP_BotAttributeTests.MP_Bot_SetReputation_DefaultAttitudeTest
+      resultStatus: 1
+      duration: 0.0002609
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1015
+      parentUniqueId: 'PlayTests.dll/[PlayTests][MP_BotAttributeTests][suite]'
+    - id: 1033
+      uniqueId: 'PlayTests.dll/MP_BotAttributeTests/[PlayTests][MP_BotAttributeTests.MP_Bot_WouldInterfierTest]'
+      name: MP_Bot_WouldInterfierTest
+      fullName: MP_BotAttributeTests.MP_Bot_WouldInterfierTest
+      resultStatus: 1
+      duration: 0.000216
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1015
+      parentUniqueId: 'PlayTests.dll/[PlayTests][MP_BotAttributeTests][suite]'
+    - id: 1034
+      uniqueId: 'PlayTests.dll/[PlayTests][MP_PlayerTests][suite]'
+      name: MP_PlayerTests
+      fullName: MP_PlayerTests
+      resultStatus: 1
+      duration: 0.083232805
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1100
+      parentUniqueId: '[PlayTests][D:/Roll for Loyalty/Library/ScriptAssemblies/PlayTests.dll][suite]'
+    - id: 1046
+      uniqueId: 'PlayTests.dll/MP_PlayerTests/[PlayTests][MP_PlayerTests.Cheated_GetterSetter_WorksCorrectlyTest]'
+      name: Cheated_GetterSetter_WorksCorrectlyTest
+      fullName: MP_PlayerTests.Cheated_GetterSetter_WorksCorrectlyTest
+      resultStatus: 1
+      duration: 0.07178
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1034
+      parentUniqueId: 'PlayTests.dll/[PlayTests][MP_PlayerTests][suite]'
+    - id: 1045
+      uniqueId: 'PlayTests.dll/MP_PlayerTests/[PlayTests][MP_PlayerTests.GetBestAttribute_ReturnsCorrectAttributePerClassTest]'
+      name: GetBestAttribute_ReturnsCorrectAttributePerClassTest
+      fullName: MP_PlayerTests.GetBestAttribute_ReturnsCorrectAttributePerClassTest
+      resultStatus: 1
+      duration: 0.0050313
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1034
+      parentUniqueId: 'PlayTests.dll/[PlayTests][MP_PlayerTests][suite]'
+    - id: 1036
+      uniqueId: 'PlayTests.dll/MP_PlayerTests/[PlayTests][MP_PlayerTests.GetClass_InvalidString_ReturnsValidEnumTest]'
+      name: GetClass_InvalidString_ReturnsValidEnumTest
+      fullName: MP_PlayerTests.GetClass_InvalidString_ReturnsValidEnumTest
+      resultStatus: 1
+      duration: 0.0007954
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1034
+      parentUniqueId: 'PlayTests.dll/[PlayTests][MP_PlayerTests][suite]'
+    - id: 1037
+      uniqueId: 'PlayTests.dll/MP_PlayerTests/[PlayTests][MP_PlayerTests.GetClass_RandomString_ReturnsValidEnumTest]'
+      name: GetClass_RandomString_ReturnsValidEnumTest
+      fullName: MP_PlayerTests.GetClass_RandomString_ReturnsValidEnumTest
+      resultStatus: 1
+      duration: 0.0002843
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1034
+      parentUniqueId: 'PlayTests.dll/[PlayTests][MP_PlayerTests][suite]'
+    - id: 1035
+      uniqueId: 'PlayTests.dll/MP_PlayerTests/[PlayTests][MP_PlayerTests.GetClass_ValidStrings_ReturnCorrectEnumTest]'
+      name: GetClass_ValidStrings_ReturnCorrectEnumTest
+      fullName: MP_PlayerTests.GetClass_ValidStrings_ReturnCorrectEnumTest
+      resultStatus: 1
+      duration: 0.0003391
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1034
+      parentUniqueId: 'PlayTests.dll/[PlayTests][MP_PlayerTests][suite]'
+    - id: 1040
+      uniqueId: 'PlayTests.dll/MP_PlayerTests/[PlayTests][MP_PlayerTests.GetRace_InvalidString_ReturnsValidEnumTest]'
+      name: GetRace_InvalidString_ReturnsValidEnumTest
+      fullName: MP_PlayerTests.GetRace_InvalidString_ReturnsValidEnumTest
+      resultStatus: 1
+      duration: 0.0005053
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1034
+      parentUniqueId: 'PlayTests.dll/[PlayTests][MP_PlayerTests][suite]'
+    - id: 1039
+      uniqueId: 'PlayTests.dll/MP_PlayerTests/[PlayTests][MP_PlayerTests.GetRace_RandomString_ReturnsValidEnumTest]'
+      name: GetRace_RandomString_ReturnsValidEnumTest
+      fullName: MP_PlayerTests.GetRace_RandomString_ReturnsValidEnumTest
+      resultStatus: 1
+      duration: 0.0002677
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1034
+      parentUniqueId: 'PlayTests.dll/[PlayTests][MP_PlayerTests][suite]'
+    - id: 1038
+      uniqueId: 'PlayTests.dll/MP_PlayerTests/[PlayTests][MP_PlayerTests.GetRace_ValidStrings_ReturnCorrectEnumTest]'
+      name: GetRace_ValidStrings_ReturnCorrectEnumTest
+      fullName: MP_PlayerTests.GetRace_ValidStrings_ReturnCorrectEnumTest
+      resultStatus: 1
+      duration: 0.0003778
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1034
+      parentUniqueId: 'PlayTests.dll/[PlayTests][MP_PlayerTests][suite]'
+    - id: 1048
+      uniqueId: 'PlayTests.dll/MP_PlayerTests/[PlayTests][MP_PlayerTests.MP_Attribute_Constructor_SetsTypeAndBaseValueTest]'
+      name: MP_Attribute_Constructor_SetsTypeAndBaseValueTest
+      fullName: MP_PlayerTests.MP_Attribute_Constructor_SetsTypeAndBaseValueTest
+      resultStatus: 1
+      duration: 0.0011947
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1034
+      parentUniqueId: 'PlayTests.dll/[PlayTests][MP_PlayerTests][suite]'
+    - id: 1049
+      uniqueId: 'PlayTests.dll/MP_PlayerTests/[PlayTests][MP_PlayerTests.MP_Attribute_Parent_IsSetCorrectlyTest]'
+      name: MP_Attribute_Parent_IsSetCorrectlyTest
+      fullName: MP_PlayerTests.MP_Attribute_Parent_IsSetCorrectlyTest
+      resultStatus: 1
+      duration: 0.0003463
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1034
+      parentUniqueId: 'PlayTests.dll/[PlayTests][MP_PlayerTests][suite]'
+    - id: 1041
+      uniqueId: 'PlayTests.dll/MP_PlayerTests/[PlayTests][MP_PlayerTests.RandomClass_Always_ReturnsValidClassesEnumTest]'
+      name: RandomClass_Always_ReturnsValidClassesEnumTest
+      fullName: MP_PlayerTests.RandomClass_Always_ReturnsValidClassesEnumTest
+      resultStatus: 1
+      duration: 0.0003691
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1034
+      parentUniqueId: 'PlayTests.dll/[PlayTests][MP_PlayerTests][suite]'
+    - id: 1042
+      uniqueId: 'PlayTests.dll/MP_PlayerTests/[PlayTests][MP_PlayerTests.RandomRace_Always_ReturnsValidRacesEnumTest]'
+      name: RandomRace_Always_ReturnsValidRacesEnumTest
+      fullName: MP_PlayerTests.RandomRace_Always_ReturnsValidRacesEnumTest
+      resultStatus: 1
+      duration: 0.0003629
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1034
+      parentUniqueId: 'PlayTests.dll/[PlayTests][MP_PlayerTests][suite]'
+    - id: 1047
+      uniqueId: 'PlayTests.dll/MP_PlayerTests/[PlayTests][MP_PlayerTests.Reputations_GetterSetter_WorksCorrectlyTest]'
+      name: Reputations_GetterSetter_WorksCorrectlyTest
+      fullName: MP_PlayerTests.Reputations_GetterSetter_WorksCorrectlyTest
+      resultStatus: 1
+      duration: 0.0003497
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1034
+      parentUniqueId: 'PlayTests.dll/[PlayTests][MP_PlayerTests][suite]'
+    - id: 1043
+      uniqueId: 'PlayTests.dll/MP_PlayerTests/[PlayTests][MP_PlayerTests.SetReputation_CreatesCorrectSizedArrayOfZerosTest]'
+      name: SetReputation_CreatesCorrectSizedArrayOfZerosTest
+      fullName: MP_PlayerTests.SetReputation_CreatesCorrectSizedArrayOfZerosTest
+      resultStatus: 1
+      duration: 0.0003282
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1034
+      parentUniqueId: 'PlayTests.dll/[PlayTests][MP_PlayerTests][suite]'
+    - id: 1044
+      uniqueId: 'PlayTests.dll/MP_PlayerTests/[PlayTests][MP_PlayerTests.SetReputation_Zero_CreatesEmptyArrayTest]'
+      name: SetReputation_Zero_CreatesEmptyArrayTest
+      fullName: MP_PlayerTests.SetReputation_Zero_CreatesEmptyArrayTest
+      resultStatus: 1
+      duration: 0.000901
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1034
+      parentUniqueId: 'PlayTests.dll/[PlayTests][MP_PlayerTests][suite]'
+    - id: 1050
+      uniqueId: 'PlayTests.dll/[PlayTests][SP_AttributeTests][suite]'
+      name: SP_AttributeTests
+      fullName: SP_AttributeTests
+      resultStatus: 1
+      duration: 0.0048602
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1100
+      parentUniqueId: '[PlayTests][D:/Roll for Loyalty/Library/ScriptAssemblies/PlayTests.dll][suite]'
+    - id: 1085
+      uniqueId: 'PlayTests.dll/SP_AttributeTests/[PlayTests][SP_AttributeTests.SP_Attribute_Constructor_SetsBaseValueTest]'
+      name: SP_Attribute_Constructor_SetsBaseValueTest
+      fullName: SP_AttributeTests.SP_Attribute_Constructor_SetsBaseValueTest
+      resultStatus: 1
+      duration: 0.0012467
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1083
+      parentUniqueId: 'PlayTests.dll/[PlayTests][SP_AttributeTests][suite]'
+    - id: 1086
+      uniqueId: 'PlayTests.dll/SP_AttributeTests/[PlayTests][SP_AttributeTests.SP_Attribute_Constructor_SetsParenttest]'
+      name: SP_Attribute_Constructor_SetsParenttest
+      fullName: SP_AttributeTests.SP_Attribute_Constructor_SetsParenttest
+      resultStatus: 1
+      duration: 0.0003004
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1083
+      parentUniqueId: 'PlayTests.dll/[PlayTests][SP_AttributeTests][suite]'
+    - id: 1084
+      uniqueId: 'PlayTests.dll/SP_AttributeTests/[PlayTests][SP_AttributeTests.SP_Attribute_Constructor_SetsTypeTest]'
+      name: SP_Attribute_Constructor_SetsTypeTest
+      fullName: SP_AttributeTests.SP_Attribute_Constructor_SetsTypeTest
+      resultStatus: 1
+      duration: 0.0002084
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1083
+      parentUniqueId: 'PlayTests.dll/[PlayTests][SP_AttributeTests][suite]'
+    - id: 1088
+      uniqueId: 'PlayTests.dll/SP_AttributeTests/[PlayTests][SP_AttributeTests.SP_Attribute_ModifiedValue_EqualsBaseValueTest]'
+      name: SP_Attribute_ModifiedValue_EqualsBaseValueTest
+      fullName: SP_AttributeTests.SP_Attribute_ModifiedValue_EqualsBaseValueTest
+      resultStatus: 1
+      duration: 0.000223
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1083
+      parentUniqueId: 'PlayTests.dll/[PlayTests][SP_AttributeTests][suite]'
+    - id: 1090
+      uniqueId: 'PlayTests.dll/SP_AttributeTests/[PlayTests][SP_AttributeTests.SP_Attribute_TypeSetter_ChangesTypeTest]'
+      name: SP_Attribute_TypeSetter_ChangesTypeTest
+      fullName: SP_AttributeTests.SP_Attribute_TypeSetter_ChangesTypeTest
+      resultStatus: 1
+      duration: 0.000232
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1083
+      parentUniqueId: 'PlayTests.dll/[PlayTests][SP_AttributeTests][suite]'
+    - id: 1087
+      uniqueId: 'PlayTests.dll/SP_AttributeTests/[PlayTests][SP_AttributeTests.SP_Attribute_ValueNotNullTest]'
+      name: SP_Attribute_ValueNotNullTest
+      fullName: SP_AttributeTests.SP_Attribute_ValueNotNullTest
+      resultStatus: 1
+      duration: 0.0002121
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1083
+      parentUniqueId: 'PlayTests.dll/[PlayTests][SP_AttributeTests][suite]'
+    - id: 1097
+      uniqueId: 'PlayTests.dll/SP_AttributeTests/[PlayTests][SP_AttributeTests.SP_Player_ActiveTest]'
+      name: SP_Player_ActiveTest
+      fullName: SP_AttributeTests.SP_Player_ActiveTest
+      resultStatus: 1
+      duration: 0.0002337
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1083
+      parentUniqueId: 'PlayTests.dll/[PlayTests][SP_AttributeTests][suite]'
+    - id: 1098
+      uniqueId: 'PlayTests.dll/SP_AttributeTests/[PlayTests][SP_AttributeTests.SP_Player_CheatedTest]'
+      name: SP_Player_CheatedTest
+      fullName: SP_AttributeTests.SP_Player_CheatedTest
+      resultStatus: 1
+      duration: 0.0001881
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1083
+      parentUniqueId: 'PlayTests.dll/[PlayTests][SP_AttributeTests][suite]'
+    - id: 1096
+      uniqueId: 'PlayTests.dll/SP_AttributeTests/[PlayTests][SP_AttributeTests.SP_Player_Fighting_CanBeSetTrueTest]'
+      name: SP_Player_Fighting_CanBeSetTrueTest
+      fullName: SP_AttributeTests.SP_Player_Fighting_CanBeSetTrueTest
+      resultStatus: 1
+      duration: 0.000197
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1083
+      parentUniqueId: 'PlayTests.dll/[PlayTests][SP_AttributeTests][suite]'
+    - id: 1095
+      uniqueId: 'PlayTests.dll/SP_AttributeTests/[PlayTests][SP_AttributeTests.SP_Player_FightingTest]'
+      name: SP_Player_FightingTest
+      fullName: SP_AttributeTests.SP_Player_FightingTest
+      resultStatus: 1
+      duration: 0.0001878
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1083
+      parentUniqueId: 'PlayTests.dll/[PlayTests][SP_AttributeTests][suite]'
+    - id: 1091
+      uniqueId: 'PlayTests.dll/SP_AttributeTests/[PlayTests][SP_AttributeTests.SP_Player_RandomClassTest]'
+      name: SP_Player_RandomClassTest
+      fullName: SP_AttributeTests.SP_Player_RandomClassTest
+      resultStatus: 1
+      duration: 0.0005969
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1083
+      parentUniqueId: 'PlayTests.dll/[PlayTests][SP_AttributeTests][suite]'
+    - id: 1092
+      uniqueId: 'PlayTests.dll/SP_AttributeTests/[PlayTests][SP_AttributeTests.SP_Player_RandomRaceTest]'
+      name: SP_Player_RandomRaceTest
+      fullName: SP_AttributeTests.SP_Player_RandomRaceTest
+      resultStatus: 1
+      duration: 0.0004899
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1083
+      parentUniqueId: 'PlayTests.dll/[PlayTests][SP_AttributeTests][suite]'
+    - id: 1094
+      uniqueId: 'PlayTests.dll/SP_AttributeTests/[PlayTests][SP_AttributeTests.SP_Player_SetReputation_AllZeroTest]'
+      name: SP_Player_SetReputation_AllZeroTest
+      fullName: SP_AttributeTests.SP_Player_SetReputation_AllZeroTest
+      resultStatus: 1
+      duration: 0.0002995
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1083
+      parentUniqueId: 'PlayTests.dll/[PlayTests][SP_AttributeTests][suite]'
+    - id: 1093
+      uniqueId: 'PlayTests.dll/SP_AttributeTests/[PlayTests][SP_AttributeTests.SP_Player_SetReputationTest]'
+      name: SP_Player_SetReputationTest
+      fullName: SP_AttributeTests.SP_Player_SetReputationTest
+      resultStatus: 1
+      duration: 0.0002447
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1083
+      parentUniqueId: 'PlayTests.dll/[PlayTests][SP_AttributeTests][suite]'
+    - id: 1065
+      uniqueId: 'PlayTests.dll/[PlayTests][SP_BotAttributeTests][suite]'
+      name: SP_BotAttributeTests
+      fullName: SP_BotAttributeTests
+      resultStatus: 1
+      duration: 0.0039301002
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1100
+      parentUniqueId: '[PlayTests][D:/Roll for Loyalty/Library/ScriptAssemblies/PlayTests.dll][suite]'
+    - id: 1048
+      uniqueId: 'PlayTests.dll/SP_BotAttributeTests/[PlayTests][SP_BotAttributeTests.SP_Bot_ActiveTest]'
+      name: SP_Bot_ActiveTest
+      fullName: SP_BotAttributeTests.SP_Bot_ActiveTest
+      resultStatus: 1
+      duration: 0.0005762
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1030
+      parentUniqueId: 'PlayTests.dll/[PlayTests][SP_BotAttributeTests][suite]'
+    - id: 1032
+      uniqueId: 'PlayTests.dll/SP_BotAttributeTests/[PlayTests][SP_BotAttributeTests.SP_Bot_Attribute_Constructor_SetsBaseValueTest]'
+      name: SP_Bot_Attribute_Constructor_SetsBaseValueTest
+      fullName: SP_BotAttributeTests.SP_Bot_Attribute_Constructor_SetsBaseValueTest
+      resultStatus: 1
+      duration: 0.0002609
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1030
+      parentUniqueId: 'PlayTests.dll/[PlayTests][SP_BotAttributeTests][suite]'
+    - id: 1033
+      uniqueId: 'PlayTests.dll/SP_BotAttributeTests/[PlayTests][SP_BotAttributeTests.SP_Bot_Attribute_Constructor_SetsParentTest]'
+      name: SP_Bot_Attribute_Constructor_SetsParentTest
+      fullName: SP_BotAttributeTests.SP_Bot_Attribute_Constructor_SetsParentTest
+      resultStatus: 1
+      duration: 0.0001687
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1030
+      parentUniqueId: 'PlayTests.dll/[PlayTests][SP_BotAttributeTests][suite]'
+    - id: 1031
+      uniqueId: 'PlayTests.dll/SP_BotAttributeTests/[PlayTests][SP_BotAttributeTests.SP_Bot_Attribute_Constructor_SetsTypeTest]'
+      name: SP_Bot_Attribute_Constructor_SetsTypeTest
+      fullName: SP_BotAttributeTests.SP_Bot_Attribute_Constructor_SetsTypeTest
+      resultStatus: 1
+      duration: 0.0001829
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1030
+      parentUniqueId: 'PlayTests.dll/[PlayTests][SP_BotAttributeTests][suite]'
+    - id: 1035
+      uniqueId: 'PlayTests.dll/SP_BotAttributeTests/[PlayTests][SP_BotAttributeTests.SP_Bot_Attribute_ModifiedValue_EqualsBaseValuetest]'
+      name: SP_Bot_Attribute_ModifiedValue_EqualsBaseValuetest
+      fullName: SP_BotAttributeTests.SP_Bot_Attribute_ModifiedValue_EqualsBaseValuetest
+      resultStatus: 1
+      duration: 0.0001793
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1030
+      parentUniqueId: 'PlayTests.dll/[PlayTests][SP_BotAttributeTests][suite]'
+    - id: 1039
+      uniqueId: 'PlayTests.dll/SP_BotAttributeTests/[PlayTests][SP_BotAttributeTests.SP_Bot_Attribute_MultipleInstances_AreIndependentTest]'
+      name: SP_Bot_Attribute_MultipleInstances_AreIndependentTest
+      fullName: SP_BotAttributeTests.SP_Bot_Attribute_MultipleInstances_AreIndependentTest
+      resultStatus: 1
+      duration: 0.0001909
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1030
+      parentUniqueId: 'PlayTests.dll/[PlayTests][SP_BotAttributeTests][suite]'
+    - id: 1038
+      uniqueId: 'PlayTests.dll/SP_BotAttributeTests/[PlayTests][SP_BotAttributeTests.SP_Bot_Attribute_TypeSetterTest]'
+      name: SP_Bot_Attribute_TypeSetterTest
+      fullName: SP_BotAttributeTests.SP_Bot_Attribute_TypeSetterTest
+      resultStatus: 1
+      duration: 0.0001839
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1030
+      parentUniqueId: 'PlayTests.dll/[PlayTests][SP_BotAttributeTests][suite]'
+    - id: 1034
+      uniqueId: 'PlayTests.dll/SP_BotAttributeTests/[PlayTests][SP_BotAttributeTests.SP_Bot_Attribute_Value_IsNotNullTest]'
+      name: SP_Bot_Attribute_Value_IsNotNullTest
+      fullName: SP_BotAttributeTests.SP_Bot_Attribute_Value_IsNotNullTest
+      resultStatus: 1
+      duration: 0.0001697
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1030
+      parentUniqueId: 'PlayTests.dll/[PlayTests][SP_BotAttributeTests][suite]'
+    - id: 1047
+      uniqueId: 'PlayTests.dll/SP_BotAttributeTests/[PlayTests][SP_BotAttributeTests.SP_Bot_CheatedTest]'
+      name: SP_Bot_CheatedTest
+      fullName: SP_BotAttributeTests.SP_Bot_CheatedTest
+      resultStatus: 1
+      duration: 0.0001539
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1030
+      parentUniqueId: 'PlayTests.dll/[PlayTests][SP_BotAttributeTests][suite]'
+    - id: 1046
+      uniqueId: 'PlayTests.dll/SP_BotAttributeTests/[PlayTests][SP_BotAttributeTests.SP_Bot_Fighting_SetTest]'
+      name: SP_Bot_Fighting_SetTest
+      fullName: SP_BotAttributeTests.SP_Bot_Fighting_SetTest
+      resultStatus: 1
+      duration: 0.0001616
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1030
+      parentUniqueId: 'PlayTests.dll/[PlayTests][SP_BotAttributeTests][suite]'
+    - id: 1045
+      uniqueId: 'PlayTests.dll/SP_BotAttributeTests/[PlayTests][SP_BotAttributeTests.SP_Bot_FightingTest]'
+      name: SP_Bot_FightingTest
+      fullName: SP_BotAttributeTests.SP_Bot_FightingTest
+      resultStatus: 1
+      duration: 0.000155
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1030
+      parentUniqueId: 'PlayTests.dll/[PlayTests][SP_BotAttributeTests][suite]'
+    - id: 1042
+      uniqueId: 'PlayTests.dll/SP_BotAttributeTests/[PlayTests][SP_BotAttributeTests.SP_Bot_RandomAttitudeTest]'
+      name: SP_Bot_RandomAttitudeTest
+      fullName: SP_BotAttributeTests.SP_Bot_RandomAttitudeTest
+      resultStatus: 1
+      duration: 0.0003412
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1030
+      parentUniqueId: 'PlayTests.dll/[PlayTests][SP_BotAttributeTests][suite]'
+    - id: 1040
+      uniqueId: 'PlayTests.dll/SP_BotAttributeTests/[PlayTests][SP_BotAttributeTests.SP_Bot_RandomClassTest]'
+      name: SP_Bot_RandomClassTest
+      fullName: SP_BotAttributeTests.SP_Bot_RandomClassTest
+      resultStatus: 1
+      duration: 0.0003258
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1030
+      parentUniqueId: 'PlayTests.dll/[PlayTests][SP_BotAttributeTests][suite]'
+    - id: 1041
+      uniqueId: 'PlayTests.dll/SP_BotAttributeTests/[PlayTests][SP_BotAttributeTests.SP_Bot_RandomRaceTest]'
+      name: SP_Bot_RandomRaceTest
+      fullName: SP_BotAttributeTests.SP_Bot_RandomRaceTest
+      resultStatus: 1
+      duration: 0.0003041
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1030
+      parentUniqueId: 'PlayTests.dll/[PlayTests][SP_BotAttributeTests][suite]'
+    - id: 1043
+      uniqueId: 'PlayTests.dll/SP_BotAttributeTests/[PlayTests][SP_BotAttributeTests.SP_Bot_SetReputation_CreatSizeArrayTest]'
+      name: SP_Bot_SetReputation_CreatSizeArrayTest
+      fullName: SP_BotAttributeTests.SP_Bot_SetReputation_CreatSizeArrayTest
+      resultStatus: 1
+      duration: 0.0002526
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1030
+      parentUniqueId: 'PlayTests.dll/[PlayTests][SP_BotAttributeTests][suite]'
+    - id: 1044
+      uniqueId: 'PlayTests.dll/SP_BotAttributeTests/[PlayTests][SP_BotAttributeTests.SP_Bot_SetReputation_ZeroSize_CreatesEmptyArrayTest]'
+      name: SP_Bot_SetReputation_ZeroSize_CreatesEmptyArrayTest
+      fullName: SP_BotAttributeTests.SP_Bot_SetReputation_ZeroSize_CreatesEmptyArrayTest
+      resultStatus: 1
+      duration: 0.0001687
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1030
+      parentUniqueId: 'PlayTests.dll/[PlayTests][SP_BotAttributeTests][suite]'
+    - id: 1049
+      uniqueId: 'PlayTests.dll/SP_BotAttributeTests/[PlayTests][SP_BotAttributeTests.SP_Bot_WouldInterfierTest]'
+      name: SP_Bot_WouldInterfierTest
+      fullName: SP_BotAttributeTests.SP_Bot_WouldInterfierTest
+      resultStatus: 1
+      duration: 0.0001547
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1030
+      parentUniqueId: 'PlayTests.dll/[PlayTests][SP_BotAttributeTests][suite]'
+    - id: 1083
+      uniqueId: 'PlayTests.dll/[PlayTests][SP_PlayerTests][suite]'
+      name: SP_PlayerTests
+      fullName: SP_PlayerTests
+      resultStatus: 1
+      duration: 0.0189204
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1100
+      parentUniqueId: '[PlayTests][D:/Roll for Loyalty/Library/ScriptAssemblies/PlayTests.dll][suite]'
+    - id: 1084
+      uniqueId: 'PlayTests.dll/SP_PlayerTests/[PlayTests][SP_PlayerTests.Active_GetterSetter_WorksCorrectlyTest]'
+      name: Active_GetterSetter_WorksCorrectlyTest
+      fullName: SP_PlayerTests.Active_GetterSetter_WorksCorrectlyTest
+      resultStatus: 1
+      duration: 0.0091478
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1067
+      parentUniqueId: 'PlayTests.dll/[PlayTests][SP_PlayerTests][suite]'
+    - id: 1089
+      uniqueId: 'PlayTests.dll/SP_PlayerTests/[PlayTests][SP_PlayerTests.AttributeList_Returns_AllSixAttributesTest]'
+      name: AttributeList_Returns_AllSixAttributesTest
+      fullName: SP_PlayerTests.AttributeList_Returns_AllSixAttributesTest
+      resultStatus: 1
+      duration: 0.0048147
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1067
+      parentUniqueId: 'PlayTests.dll/[PlayTests][SP_PlayerTests][suite]'
+    - id: 1086
+      uniqueId: 'PlayTests.dll/SP_PlayerTests/[PlayTests][SP_PlayerTests.DrawableCards_GetterSetter_WorksCorrectlyTest]'
+      name: DrawableCards_GetterSetter_WorksCorrectlyTest
+      fullName: SP_PlayerTests.DrawableCards_GetterSetter_WorksCorrectlyTest
+      resultStatus: 1
+      duration: 0.0002734
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1067
+      parentUniqueId: 'PlayTests.dll/[PlayTests][SP_PlayerTests][suite]'
+    - id: 1085
+      uniqueId: 'PlayTests.dll/SP_PlayerTests/[PlayTests][SP_PlayerTests.Fighting_GetterSetter_WorksCorrectlyTest]'
+      name: Fighting_GetterSetter_WorksCorrectlyTest
+      fullName: SP_PlayerTests.Fighting_GetterSetter_WorksCorrectlyTest
+      resultStatus: 1
+      duration: 0.0001953
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1067
+      parentUniqueId: 'PlayTests.dll/[PlayTests][SP_PlayerTests][suite]'
+    - id: 1082
+      uniqueId: 'PlayTests.dll/SP_PlayerTests/[PlayTests][SP_PlayerTests.GetBestAttribute_ReturnsCorrectAttributePerClassTest]'
+      name: GetBestAttribute_ReturnsCorrectAttributePerClassTest
+      fullName: SP_PlayerTests.GetBestAttribute_ReturnsCorrectAttributePerClassTest
+      resultStatus: 1
+      duration: 0.0004716
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1067
+      parentUniqueId: 'PlayTests.dll/[PlayTests][SP_PlayerTests][suite]'
+    - id: 1069
+      uniqueId: 'PlayTests.dll/SP_PlayerTests/[PlayTests][SP_PlayerTests.GetClass_InvalidString_ReturnsValidEnumTest]'
+      name: GetClass_InvalidString_ReturnsValidEnumTest
+      fullName: SP_PlayerTests.GetClass_InvalidString_ReturnsValidEnumTest
+      resultStatus: 1
+      duration: 0.000582
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1067
+      parentUniqueId: 'PlayTests.dll/[PlayTests][SP_PlayerTests][suite]'
+    - id: 1068
+      uniqueId: 'PlayTests.dll/SP_PlayerTests/[PlayTests][SP_PlayerTests.GetClass_ValidStrings_ReturnCorrectEnumTest]'
+      name: GetClass_ValidStrings_ReturnCorrectEnumTest
+      fullName: SP_PlayerTests.GetClass_ValidStrings_ReturnCorrectEnumTest
+      resultStatus: 1
+      duration: 0.0002899
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1067
+      parentUniqueId: 'PlayTests.dll/[PlayTests][SP_PlayerTests][suite]'
+    - id: 1071
+      uniqueId: 'PlayTests.dll/SP_PlayerTests/[PlayTests][SP_PlayerTests.GetRace_RandomString_ReturnsValidEnumTest]'
+      name: GetRace_RandomString_ReturnsValidEnumTest
+      fullName: SP_PlayerTests.GetRace_RandomString_ReturnsValidEnumTest
+      resultStatus: 1
+      duration: 0.0004899
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1067
+      parentUniqueId: 'PlayTests.dll/[PlayTests][SP_PlayerTests][suite]'
+    - id: 1070
+      uniqueId: 'PlayTests.dll/SP_PlayerTests/[PlayTests][SP_PlayerTests.GetRace_ValidStrings_ReturnCorrectEnumTest]'
+      name: GetRace_ValidStrings_ReturnCorrectEnumTest
+      fullName: SP_PlayerTests.GetRace_ValidStrings_ReturnCorrectEnumTest
+      resultStatus: 1
+      duration: 0.0002802
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1067
+      parentUniqueId: 'PlayTests.dll/[PlayTests][SP_PlayerTests][suite]'
+    - id: 1083
+      uniqueId: 'PlayTests.dll/SP_PlayerTests/[PlayTests][SP_PlayerTests.Level_GetterSetter_WorksCorrectlyTest]'
+      name: Level_GetterSetter_WorksCorrectlyTest
+      fullName: SP_PlayerTests.Level_GetterSetter_WorksCorrectlyTest
+      resultStatus: 1
+      duration: 0.0002103
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1067
+      parentUniqueId: 'PlayTests.dll/[PlayTests][SP_PlayerTests][suite]'
+    - id: 1072
+      uniqueId: 'PlayTests.dll/SP_PlayerTests/[PlayTests][SP_PlayerTests.RandomClass_Always_ReturnsValidClassesEnumTest]'
+      name: RandomClass_Always_ReturnsValidClassesEnumTest
+      fullName: SP_PlayerTests.RandomClass_Always_ReturnsValidClassesEnumTest
+      resultStatus: 1
+      duration: 0.0002283
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1067
+      parentUniqueId: 'PlayTests.dll/[PlayTests][SP_PlayerTests][suite]'
+    - id: 1073
+      uniqueId: 'PlayTests.dll/SP_PlayerTests/[PlayTests][SP_PlayerTests.RandomRace_Always_ReturnsValidRacesEnumTest]'
+      name: RandomRace_Always_ReturnsValidRacesEnumTest
+      fullName: SP_PlayerTests.RandomRace_Always_ReturnsValidRacesEnumTest
+      resultStatus: 1
+      duration: 0.0002526
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1067
+      parentUniqueId: 'PlayTests.dll/[PlayTests][SP_PlayerTests][suite]'
+    - id: 1087
+      uniqueId: 'PlayTests.dll/SP_PlayerTests/[PlayTests][SP_PlayerTests.ReputationID_GetterSetter_WorksCorrectlyTest]'
+      name: ReputationID_GetterSetter_WorksCorrectlyTest
+      fullName: SP_PlayerTests.ReputationID_GetterSetter_WorksCorrectlyTest
+      resultStatus: 1
+      duration: 0.0001864
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1067
+      parentUniqueId: 'PlayTests.dll/[PlayTests][SP_PlayerTests][suite]'
+    - id: 1074
+      uniqueId: 'PlayTests.dll/SP_PlayerTests/[PlayTests][SP_PlayerTests.SetReputation_CreatesCorrectSizedArrayOfZerosTest]'
+      name: SetReputation_CreatesCorrectSizedArrayOfZerosTest
+      fullName: SP_PlayerTests.SetReputation_CreatesCorrectSizedArrayOfZerosTest
+      resultStatus: 1
+      duration: 0.0003887
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1067
+      parentUniqueId: 'PlayTests.dll/[PlayTests][SP_PlayerTests][suite]'
+    - id: 1075
+      uniqueId: 'PlayTests.dll/SP_PlayerTests/[PlayTests][SP_PlayerTests.SetReputation_Zero_CreatesEmptyArrayTest]'
+      name: SetReputation_Zero_CreatesEmptyArrayTest
+      fullName: SP_PlayerTests.SetReputation_Zero_CreatesEmptyArrayTest
+      resultStatus: 1
+      duration: 0.0008565
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1067
+      parentUniqueId: 'PlayTests.dll/[PlayTests][SP_PlayerTests][suite]'
+    - id: 1088
+      uniqueId: 'PlayTests.dll/SP_PlayerTests/[PlayTests][SP_PlayerTests.SP_Attribute_Constructor_SetsTypeAndBaseValueTest]'
+      name: SP_Attribute_Constructor_SetsTypeAndBaseValueTest
+      fullName: SP_PlayerTests.SP_Attribute_Constructor_SetsTypeAndBaseValueTest
+      resultStatus: 1
+      duration: 0.0002528
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1067
+      parentUniqueId: 'PlayTests.dll/[PlayTests][SP_PlayerTests][suite]'
+    m_ResultText: MP_PlayerTests (15 tests) (0,083s)
+    m_ResultStacktrace: 
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: e5dc19d3
+      m_LastClickedID: -753279771
+      m_ExpandedIDs: 6ae6f2915c9613a51e914fad9e923f36b5ac7c41ffffff7f
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_TrimLeadingAndTrailingWhitespace: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategories: []
+      availableCategories:
+      - Uncategorized
+    m_SelectedOption: 0
+  - m_Window: {fileID: 17}
+    runProgress:
+      RunGuid: 571d812e-89f2-4ae9-b414-5abcd7b417a4
+      ExecutionSettings:
+        m_TargetPlatform: 0
+        m_HasTargetPlatform: 0
+        filter:
+          testMode: 0
+          testNames: []
+          groupNames: []
+          categoryNames: []
+          assemblyNames: []
+        filters:
+        - testMode: 2
+          testNames:
+          - MP_PlayerTests
+          groupNames: []
+          categoryNames: []
+          assemblyNames: []
+        runSynchronously: 0
+        playerHeartbeatTimeout: 600
+        orderedTestNames: []
+        ignoreTests: []
+        featureFlags:
+          fileCleanUpCheck: 0
+          requiresSplashScreen: 0
+          strictDomainReload: 0
+          disableNestedEnumeratorBugfix: 0
+        randomOrderSeed: 0
+      HasFinished: 1
+      Progress: 0.99999976
+      CurrentStepName: Unlock Reload Assemblies
+      CurrentStageName: 
+    m_NewResultList:
+    - id: 1008
+      uniqueId: '[Roll for Loyalty][suite]'
+      name: Roll for Loyalty
+      fullName: Roll for Loyalty
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: 1020
+      uniqueId: '[Assembly-CSharp][D:/Roll for Loyalty/Library/ScriptAssemblies/Assembly-CSharp.dll][suite]'
+      name: Assembly-CSharp.dll
+      fullName: D:/Roll for Loyalty/Library/ScriptAssemblies/Assembly-CSharp.dll
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1008
+      parentUniqueId: '[Roll for Loyalty][suite]'
+    - id: 1009
+      uniqueId: 'Assembly-CSharp.dll/[Assembly-CSharp][InventoryTests][suite]'
+      name: InventoryTests
+      fullName: InventoryTests
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1020
+      parentUniqueId: '[Assembly-CSharp][D:/Roll for Loyalty/Library/ScriptAssemblies/Assembly-CSharp.dll][suite]'
+    - id: 1011
+      uniqueId: 'Assembly-CSharp.dll/InventoryTests/[Assembly-CSharp][InventoryTests.Inventory_ClearTest]'
+      name: Inventory_ClearTest
+      fullName: InventoryTests.Inventory_ClearTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1009
+      parentUniqueId: 'Assembly-CSharp.dll/[Assembly-CSharp][InventoryTests][suite]'
+    - id: 1010
+      uniqueId: 'Assembly-CSharp.dll/InventoryTests/[Assembly-CSharp][InventoryTests.Inventory_CreateInventoryTest]'
+      name: Inventory_CreateInventoryTest
+      fullName: InventoryTests.Inventory_CreateInventoryTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1009
+      parentUniqueId: 'Assembly-CSharp.dll/[Assembly-CSharp][InventoryTests][suite]'
+    - id: 1017
+      uniqueId: 'Assembly-CSharp.dll/InventoryTests/[Assembly-CSharp][InventoryTests.InventoryObject_AddItemTest]'
+      name: InventoryObject_AddItemTest
+      fullName: InventoryTests.InventoryObject_AddItemTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1009
+      parentUniqueId: 'Assembly-CSharp.dll/[Assembly-CSharp][InventoryTests][suite]'
+    - id: 1015
+      uniqueId: 'Assembly-CSharp.dll/InventoryTests/[Assembly-CSharp][InventoryTests.InventoryObject_EmptySlotCountTest]'
+      name: InventoryObject_EmptySlotCountTest
+      fullName: InventoryTests.InventoryObject_EmptySlotCountTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1009
+      parentUniqueId: 'Assembly-CSharp.dll/[Assembly-CSharp][InventoryTests][suite]'
+    - id: 1018
+      uniqueId: 'Assembly-CSharp.dll/InventoryTests/[Assembly-CSharp][InventoryTests.InventoryObject_RemoveItemTest]'
+      name: InventoryObject_RemoveItemTest
+      fullName: InventoryTests.InventoryObject_RemoveItemTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1009
+      parentUniqueId: 'Assembly-CSharp.dll/[Assembly-CSharp][InventoryTests][suite]'
+    - id: 1016
+      uniqueId: 'Assembly-CSharp.dll/InventoryTests/[Assembly-CSharp][InventoryTests.InventoryObject_SetFirstEmptySlotTest]'
+      name: InventoryObject_SetFirstEmptySlotTest
+      fullName: InventoryTests.InventoryObject_SetFirstEmptySlotTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1009
+      parentUniqueId: 'Assembly-CSharp.dll/[Assembly-CSharp][InventoryTests][suite]'
+    - id: 1019
+      uniqueId: 'Assembly-CSharp.dll/InventoryTests/[Assembly-CSharp][InventoryTests.InventoryObject_SwapItemTest]'
+      name: InventoryObject_SwapItemTest
+      fullName: InventoryTests.InventoryObject_SwapItemTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1009
+      parentUniqueId: 'Assembly-CSharp.dll/[Assembly-CSharp][InventoryTests][suite]'
+    - id: 1012
+      uniqueId: 'Assembly-CSharp.dll/InventoryTests/[Assembly-CSharp][InventoryTests.InventorySlot_AddAmountTest]'
+      name: InventorySlot_AddAmountTest
+      fullName: InventoryTests.InventorySlot_AddAmountTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1009
+      parentUniqueId: 'Assembly-CSharp.dll/[Assembly-CSharp][InventoryTests][suite]'
+    - id: 1014
+      uniqueId: 'Assembly-CSharp.dll/InventoryTests/[Assembly-CSharp][InventoryTests.InventorySlot_RemoveItemTest]'
+      name: InventorySlot_RemoveItemTest
+      fullName: InventoryTests.InventorySlot_RemoveItemTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1009
+      parentUniqueId: 'Assembly-CSharp.dll/[Assembly-CSharp][InventoryTests][suite]'
+    - id: 1013
+      uniqueId: 'Assembly-CSharp.dll/InventoryTests/[Assembly-CSharp][InventoryTests.InventorySlot_SubAmountTest]'
+      name: InventorySlot_SubAmountTest
+      fullName: InventoryTests.InventorySlot_SubAmountTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1009
+      parentUniqueId: 'Assembly-CSharp.dll/[Assembly-CSharp][InventoryTests][suite]'
+    m_ResultText: 
+    m_ResultStacktrace: 
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 6ae6f291ffffff7f
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_TrimLeadingAndTrailingWhitespace: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategories: []
+      availableCategories:
+      - Uncategorized
+    m_SelectedOption: 0
+--- !u!114 &18
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_TitleContent:
+    m_Text: Project
+    m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "Project\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 745
+    width: 1472
+    height: 241
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_ContainerData: []
+    m_DynamicPanelContainerData: []
+    m_OverlaysVisible: 1
+    m_DynamicPanelBehavior: 0
+  m_SearchFilter:
+    m_NameFilter: 
+    m_ClassNames: []
+    m_AssetLabels: []
+    m_AssetBundleNames: []
+    m_ReferencingInstanceIDs: 
+    m_SceneHandles: []
+    m_ShowAllHits: 0
+    m_SkipHidden: 0
+    m_SearchArea: 1
+    m_Folders:
+    - Assets/Scripts
+    m_Globs: []
+    m_ProductIds: 
+    m_AnyWithAssetOrigin: 0
+    m_OriginalText: 
+    m_ImportLogFlags: 0
+    m_FilterByTypeIntersection: 0
+  m_ViewMode: 1
+  m_StartGridSize: 53
+  m_LastFolders:
+  - Assets/Scripts
+  m_LastFoldersGridSize: 53
+  m_LastProjectPath: D:\Roll for Loyalty
+  m_LockTracker:
+    m_IsLocked: 0
+  m_LastLocalAssetsSearchArea: 1
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs:
+    - m_Data: 67552
+    m_LastClickedID:
+      m_Data: 67552
+    m_ExpandedIDs:
+    - m_Data: 0
+    - m_Data: 67542
+    - m_Data: 67544
+    - m_Data: 67546
+    - m_Data: 67548
+    - m_Data: 67550
+    - m_Data: 67552
+    - m_Data: 67672
+    - m_Data: 67676
+    - m_Data: 1000000000
+    - m_Data: 2147483647
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData:
+        m_Data: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_TrimLeadingAndTrailingWhitespace: 0
+      m_ClientGUIView: {fileID: 11}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_AssetTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: []
+    m_LastClickedID:
+      m_Data: 0
+    m_ExpandedIDs:
+    - m_Data: 0
+    - m_Data: 67542
+    - m_Data: 67544
+    - m_Data: 67546
+    - m_Data: 67548
+    - m_Data: 67550
+    - m_Data: 67552
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData:
+        m_Data: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_TrimLeadingAndTrailingWhitespace: 0
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_ListAreaState:
+    m_SelectedInstanceIDs: []
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs:
+    - m_Data: 53674
+    - m_Data: 53668
+    - m_Data: 57892
+    - m_Data: 58870
+    - m_Data: 53712
+    - m_Data: 53652
+    - m_Data: 75808
+    - m_Data: 75750
+    - m_Data: 55926
+    - m_Data: 86066
+    - m_Data: 54692
+    - m_Data: 55198
+    - m_Data: 57016
+    - m_Data: 62732
+    - m_Data: 57200
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData:
+        m_Data: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_TrimLeadingAndTrailingWhitespace: 0
+      m_ClientGUIView: {fileID: 11}
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+    m_NewAssetIndexInList: -1
+    m_ScrollPosition: {x: 0, y: 0}
+    m_GridSize: 53
+  m_SkipHiddenPackages: 0
+  m_DirectoriesAreaWidth: 207
+--- !u!114 &19
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6629f1bb292b749a18b5fff7994c8b19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.PlasticSCM.Editor::Unity.PlasticSCM.Editor.UVCSWindow
+  m_MinSize: {x: 600, y: 350}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Unity Version Control
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "Unity Version Control\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 745
+    width: 1472
+    height: 241
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_ContainerData: []
+    m_DynamicPanelContainerData: []
+    m_OverlaysVisible: 1
+    m_DynamicPanelBehavior: 0
+  mForceToReOpen: 0
+--- !u!114 &20
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Inspector
+    m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+    m_TextWithWhitespace: "Inspector\u200B"
+  m_Pos:
+    serializedVersion: 2
+    x: 1473
+    y: 79
+    width: 446
+    height: 907
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_ContainerData: []
+    m_DynamicPanelContainerData: []
+    m_OverlaysVisible: 1
+    m_DynamicPanelBehavior: 0
+  m_ObjectsLockedBeforeSerialization: []
+  m_InstanceIDsLockedBeforeSerialization: 
+  m_PreviewResizer:
+    m_CachedPref: 160
+    m_ControlHash: -371814159
+    m_PrefName: Preview_InspectorPreview
+  m_LastInspectedObjectInstanceID: -1
+  m_LastVerticalScrollValue: 0
+  m_GlobalObjectId: 
+  m_InspectorMode: 0
+  m_LockTracker:
+    m_IsLocked: 0
+  m_PreviewWindow: {fileID: 0}

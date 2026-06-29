@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28860340d367b6d48ac3b2be86f69ecf, type: 3}
+  m_Name: Tome of Intelect
+  m_EditorClassIdentifier: Assembly-CSharp::AccessoriesObject
+  display: {fileID: -5183978504928954564, guid: 183d3f81189a738428e7aa0887b270f5, type: 3}
+  stackable: 0
+  description: 
+  data:
+    name: Tome of Intelect
+    id: -1
+    type: 6
+    buffs:
+    - attribute: 2
+      value: 0
+      max: 10
+      min: 5

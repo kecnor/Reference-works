@@ -1,0 +1,15 @@
+{
+	"name": "Multiplayer",
+	"references":[
+        "Cheating",
+        "Monster",
+        "Fixeddatas",
+        "Interfaces",
+        "Inventory",
+        "Item",
+        "Lists",
+        "Visuals",
+        "Unity.TextMeshPro",
+        "Unity.Netcode.Runtime"
+    ]
+}
