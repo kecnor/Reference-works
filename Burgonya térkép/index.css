@@ -1,0 +1,170 @@
+body {
+    background-image: url('Images/background.png');
+    background-size: cover;
+}
+
+td {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+#Title {
+    width: 596px;
+    height: 100px;
+    margin-left: 50px;
+    float: left;
+}
+
+#Title h1 {
+    font-size: 30pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#Seasons {
+    float: right;
+    width: 450px;
+    height: 130px;
+}
+
+#Seasons td {
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    font-size: 20pt;
+    color: white;
+}
+
+#Seasons h2 {
+    text-align: center;
+    margin-top: 0;
+}
+
+#TableContainer {
+    background-color: white;
+    float: left;
+    width: 596px;
+    height: 596px;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+
+#Quests {
+    float: right;
+    width: 600px;
+    height: 350px;
+    /*border: 1px solid black;*/
+}
+
+#Shape {
+    float: right;
+    width: 600px;
+    height: 250px;
+    /*border: 1px solid black;*/
+}
+
+#Buttons {
+    float: left;
+    width: 300px;
+    height: 250px;
+    /*border: 1px solid black;*/
+}
+
+#MiniTable {
+    float: right;
+    width: 298px;
+    height: 250px;
+    /*border: 1px solid black;*/
+}
+
+#Buttons h2 {
+    font-size: 20pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+Button {
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    margin-left: 149px;
+    font-size: 20pt;
+    border-radius: 15px;
+}
+
+#Buttons Button:first-of-type {
+    margin-top: 50px;
+}
+
+#MiniTable table {
+    margin: auto;
+}
+
+#MiniTable td {
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+}
+
+hr {
+    float: right;
+    width: 600px;
+    border: 2px solid black;
+}
+
+#QuestTable {
+    float: center;
+}
+
+#A,
+#B,
+#C,
+#D {
+    width: 250px;
+    height: 75px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #333333;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50%;
+}
+
+#A img,
+#B img,
+#C img,
+#D img {
+    float: left;
+    width: 75px;
+    height: 75px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#A h3,
+#B h3,
+#C h3,
+#D h3 {
+    text-align: right;
+}
+
+#A h3:first-of-type,
+#B h3:first-of-type,
+#C h3:first-of-type,
+#D h3:first-of-type {
+    text-align: left;
+}
+
+#AScore,
+#BScore,
+#CScore,
+#DScore {
+    float: left;
+    color: red;
+}
+
+#TimeCost {
+    float: right;
+    color: white;
+    margin-right: 30px;
+}
